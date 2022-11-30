@@ -8,6 +8,8 @@ public class Bullet : MonoBehaviour
     private Rigidbody2D rig;
     public Action collisionAction;
     public TrailRenderer trail;
+    private float damage = 0;
+    private int a = -1;
     private void Awake()
     {
         trail = GetComponent<TrailRenderer>();
@@ -15,27 +17,34 @@ public class Bullet : MonoBehaviour
     }
     private void OnEnable()
     {
-        rig.velocity = transform.up * 50;
+        rig.velocity = transform.up * 25;
         StartCoroutine(DestroyBulletTime(1f));
+        if(a!=-1)
+        a = 0;
     }
     private void OnDisable()
     {
         StopAllCoroutines();
     }
-    private void Update()
-    {
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Entity"))
+        if (a <= 0)
         {
-            collision.GetComponent<Entity>().OnDamage(100, transform.position);
-            //StartCoroutine(DestroyBulletTime(0.01f));
+            if (collision.gameObject.CompareTag("Entity"))
+            {
+                if (a != -1)
+                {
+                    DestroyBullet();
+                    ++a;
+                }
+                collision.GetComponent<Entity>().OnDamage(damage, transform.position);
+            }
         }
     }
-    public void Fire()
+    public void Fire(float _damage)
     {
-
+        trail.Clear();
+        damage = _damage;
     }
     IEnumerator DestroyBulletTime(float time)
     {
@@ -45,6 +54,5 @@ public class Bullet : MonoBehaviour
     public void DestroyBullet()
     {
         PoolManager<Bullet>.instance.SetPool(this);
-
     }
 }

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PoolManager<T> where T : MonoBehaviour
+public class PoolManager<T> where T : Component
 {
     static private PoolManager<T> Instance;
     static public PoolManager<T> instance
@@ -15,7 +15,7 @@ public class PoolManager<T> where T : MonoBehaviour
             return Instance;
         } 
     }
-    Dictionary<string, Stack<T>> pools = new Dictionary<string, Stack<T>>();
+    Dictionary<string, Queue<T>> pools = new Dictionary<string, Queue<T>>();
     GameObject parent;
     Spawner spawner;
     public PoolManager()
@@ -26,26 +26,27 @@ public class PoolManager<T> where T : MonoBehaviour
     }
     public T GetPool(GameObject obj)
     {
-        if (!pools.ContainsKey(obj.gameObject.name))
+        if (!pools.ContainsKey(obj.gameObject.name+ "(Clone)"))
         {
-            pools.Add(obj.gameObject.name, new Stack<T>());
+            pools.Add(obj.gameObject.name+ "(Clone)", new Queue<T>());
         }
-        if (pools[obj.gameObject.name].Count == 0)
+        if (pools[obj.gameObject.name+ "(Clone)"].Count == 0)
         {
             GameObject newObj = Instance.spawner.Instantiation(obj, parent);
             newObj.SetActive(false);
             return newObj.GetComponent<T>();
         }
-        return pools[obj.gameObject.name].Pop();
+        Debug.Log(pools[obj.gameObject.name + "(Clone)"].Count + obj.name);
+        return pools[obj.gameObject.name + "(Clone)"].Dequeue();
     }
     public void SetPool(T obj)
     {
         if (!pools.ContainsKey(obj.gameObject.name))
         {
-            pools.Add(obj.gameObject.name, new Stack<T>());
+            pools.Add(obj.gameObject.name, new Queue<T>());
             obj.transform.parent = parent.transform;
         }
-        pools[obj.gameObject.name].Push(obj);
         obj.gameObject.SetActive(false);
+        pools[obj.gameObject.name].Enqueue(obj);
     }
 }

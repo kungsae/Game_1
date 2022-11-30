@@ -11,7 +11,6 @@ public class Enemy : Entity
     public override void Awake()
     {
         base.Awake();
-        Debug.Log(target);
     }
     public override void Init()
     {

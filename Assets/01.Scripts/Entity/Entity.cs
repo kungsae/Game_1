@@ -7,6 +7,7 @@ public abstract class Entity : MonoBehaviour
 {
     public EntityData data;
     public Action dieEvent;
+    public GameObject testParticle;
     protected float hp;
     protected Animator animator;
     protected SpriteRenderer spriteRender;
@@ -14,6 +15,7 @@ public abstract class Entity : MonoBehaviour
     protected Vector2 dir;
     protected bool isDie = false;
     protected Material origineMat;
+    protected Collider2D[] cols;
 
     protected WaitForSeconds coolDown;
 
@@ -23,6 +25,10 @@ public abstract class Entity : MonoBehaviour
         isDie = false;
         dieEvent = null;
         hp = data.maxHp;
+        foreach (var item in cols)
+        {
+            item.enabled = true;
+        }
     }
     public virtual void Awake()
     {
@@ -30,6 +36,7 @@ public abstract class Entity : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         spriteRender = GetComponent<SpriteRenderer>();
         origineMat = spriteRender.material;
+        cols = GetComponents<Collider2D>();
         Init();
     }
     private void OnEnable()
@@ -40,10 +47,14 @@ public abstract class Entity : MonoBehaviour
     {
         if (isDie) return;
         float totalPushP = Mathf.Clamp(pushPower - data.pushResist,0,100);
-        //animator.Play("Hit");
+        animator.Play("Hit");
         hp -= _damage;
         Debug.Log(gameObject.name + " : " + _damage + "피해 입음");
         rigid.velocity = (-(attackPos - (Vector2)transform.position).normalized* totalPushP);
+        ParticleSystem p = PoolManager<ParticleSystem>.instance.GetPool(testParticle.gameObject);
+        p.transform.position = attackPos;
+        p.gameObject.SetActive(true);
+        p.Play();
         StartCoroutine(hitEffectTime());
         if (hp <= 0)
         {
@@ -79,7 +90,6 @@ public abstract class Entity : MonoBehaviour
     public virtual void Die()
     {
         dieEvent?.Invoke();
-        Collider2D[] cols = GetComponents<Collider2D>();
         foreach (var item in cols)
         {
             item.enabled = false;

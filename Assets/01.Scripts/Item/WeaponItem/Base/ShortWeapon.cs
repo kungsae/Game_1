@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShortWeapon : WeaponBase
+public class ShortWeapon : ItemBase
 {
     private List<Entity> attackedEntitys = new List<Entity>();
     protected override void Awake()
