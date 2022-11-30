@@ -1,0 +1,6747 @@
+fileFormatVersion: 2
+guid: eb7f36abcffed1740be83ecf7df43804
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8390559468564157895
+    second: forestCliff__0
+  - first:
+      213: -1286476975696015738
+    second: forestCliff__1
+  - first:
+      213: -8142320077760758423
+    second: forestCliff__2
+  - first:
+      213: -451885454531504243
+    second: forestCliff__3
+  - first:
+      213: -6166765824644390863
+    second: forestCliff__4
+  - first:
+      213: -2877296044086420207
+    second: forestCliff__5
+  - first:
+      213: -8038276160959179310
+    second: forestCliff__6
+  - first:
+      213: -8590743723398966645
+    second: forestCliff__7
+  - first:
+      213: -7451331559623518113
+    second: forestCliff__8
+  - first:
+      213: -6034097736355664188
+    second: forestCliff__9
+  - first:
+      213: -8696883626171431112
+    second: forestCliff__10
+  - first:
+      213: -6076872303256620902
+    second: forestCliff__11
+  - first:
+      213: 6558778661400835061
+    second: forestCliff__12
+  - first:
+      213: 2135059314756849513
+    second: forestCliff__13
+  - first:
+      213: 3205377485935130707
+    second: forestCliff__14
+  - first:
+      213: -8472188835177385605
+    second: forestCliff__15
+  - first:
+      213: -329858952673474001
+    second: forestCliff__16
+  - first:
+      213: 3634701909550893838
+    second: forestCliff__17
+  - first:
+      213: 5400351580598003029
+    second: forestCliff__18
+  - first:
+      213: 5872463414932768814
+    second: forestCliff__19
+  - first:
+      213: 8433514838406790913
+    second: forestCliff__20
+  - first:
+      213: 7296372549866734772
+    second: forestCliff__21
+  - first:
+      213: -5884930951321560669
+    second: forestCliff__22
+  - first:
+      213: -4882486303693763338
+    second: forestCliff__23
+  - first:
+      213: -2374802138440559605
+    second: forestCliff__24
+  - first:
+      213: -4277780022385441642
+    second: forestCliff__25
+  - first:
+      213: -6379689983814839291
+    second: forestCliff__26
+  - first:
+      213: -1574493496180680402
+    second: forestCliff__27
+  - first:
+      213: 156741584486239959
+    second: forestCliff__28
+  - first:
+      213: 5170787788534906140
+    second: forestCliff__29
+  - first:
+      213: 1867489294974632399
+    second: forestCliff__30
+  - first:
+      213: -3220055465573760227
+    second: forestCliff__31
+  - first:
+      213: 3148654890869383454
+    second: forestCliff__32
+  - first:
+      213: -7065443333363738894
+    second: forestCliff__33
+  - first:
+      213: 5873607117628195374
+    second: forestCliff__34
+  - first:
+      213: -7485921565760685186
+    second: forestCliff__35
+  - first:
+      213: 5819430057415399906
+    second: forestCliff__36
+  - first:
+      213: 8527812870373972342
+    second: forestCliff__37
+  - first:
+      213: -8892556961129747641
+    second: forestCliff__38
+  - first:
+      213: -2752750848572227181
+    second: forestCliff__39
+  - first:
+      213: -8096652077698683166
+    second: forestCliff__40
+  - first:
+      213: 1199964905222001842
+    second: forestCliff__41
+  - first:
+      213: -7054693297634348902
+    second: forestCliff__42
+  - first:
+      213: -3362198113241944075
+    second: forestCliff__43
+  - first:
+      213: 164180089060602816
+    second: forestCliff__44
+  - first:
+      213: 6352725715082708223
+    second: forestCliff__45
+  - first:
+      213: -4028414544761132284
+    second: forestCliff__46
+  - first:
+      213: -5550110950431406539
+    second: forestCliff__47
+  - first:
+      213: 610863387407621635
+    second: forestCliff__48
+  - first:
+      213: -6291788028416042053
+    second: forestCliff__49
+  - first:
+      213: 8294443581634226759
+    second: forestCliff__50
+  - first:
+      213: 6130890728022414200
+    second: forestCliff__51
+  - first:
+      213: -810740451000640859
+    second: forestCliff__52
+  - first:
+      213: 7309673170244296716
+    second: forestCliff__53
+  - first:
+      213: 4574673537696616291
+    second: forestCliff__54
+  - first:
+      213: -4704759228020896866
+    second: forestCliff__55
+  - first:
+      213: -7272868536536164003
+    second: forestCliff__56
+  - first:
+      213: -4809450475279711010
+    second: forestCliff__57
+  - first:
+      213: -1645492266756398334
+    second: forestCliff__58
+  - first:
+      213: -765579167526408685
+    second: forestCliff__59
+  - first:
+      213: -6746782553599649626
+    second: forestCliff__60
+  - first:
+      213: 3998419173925431818
+    second: forestCliff__61
+  - first:
+      213: -6202577992287768740
+    second: forestCliff__62
+  - first:
+      213: -1509146944957530156
+    second: forestCliff__63
+  - first:
+      213: 3205122605797234031
+    second: forestCliff__64
+  - first:
+      213: -1654531709934794149
+    second: forestCliff__65
+  - first:
+      213: -3887944816902824063
+    second: forestCliff__66
+  - first:
+      213: 1415253206483284050
+    second: forestCliff__67
+  - first:
+      213: -1789521354645973334
+    second: forestCliff__68
+  - first:
+      213: -1390150280490249108
+    second: forestCliff__69
+  - first:
+      213: 7166098306877789549
+    second: forestCliff__70
+  - first:
+      213: 7058797813873256736
+    second: forestCliff__71
+  - first:
+      213: -7628310895594095636
+    second: forestCliff__72
+  - first:
+      213: -6551043569131561304
+    second: forestCliff__73
+  - first:
+      213: 2721511671409047175
+    second: forestCliff__74
+  - first:
+      213: 1052340000227301130
+    second: forestCliff__75
+  - first:
+      213: -954041332348068200
+    second: forestCliff__76
+  - first:
+      213: 2409403527113282128
+    second: forestCliff__77
+  - first:
+      213: -718076383818650146
+    second: forestCliff__78
+  - first:
+      213: 2425857226221511990
+    second: forestCliff__79
+  - first:
+      213: 4638334432825441180
+    second: forestCliff__80
+  - first:
+      213: 2735296213597333446
+    second: forestCliff__81
+  - first:
+      213: 2506962592470367032
+    second: forestCliff__82
+  - first:
+      213: -911988037655481603
+    second: forestCliff__83
+  - first:
+      213: -9143686336308619541
+    second: forestCliff__84
+  - first:
+      213: 4687711397566374072
+    second: forestCliff__85
+  - first:
+      213: -6999102900613359635
+    second: forestCliff__86
+  - first:
+      213: 6003276785421953988
+    second: forestCliff__87
+  - first:
+      213: 867550357224445253
+    second: forestCliff__88
+  - first:
+      213: 2840322487418955143
+    second: forestCliff__89
+  - first:
+      213: -6748424426580376697
+    second: forestCliff__90
+  - first:
+      213: 3278450880310225773
+    second: forestCliff__91
+  - first:
+      213: 156088201984562744
+    second: forestCliff__92
+  - first:
+      213: 7229685006057853067
+    second: forestCliff__93
+  - first:
+      213: 1409473761938058693
+    second: forestCliff__94
+  - first:
+      213: -2449320308039932653
+    second: forestCliff__95
+  - first:
+      213: 1444933706950822245
+    second: forestCliff__96
+  - first:
+      213: 5680496585288668756
+    second: forestCliff__97
+  - first:
+      213: 5521216037239977469
+    second: forestCliff__98
+  - first:
+      213: 2047195592074542484
+    second: forestCliff__99
+  - first:
+      213: 4691703702470666114
+    second: forestCliff__100
+  - first:
+      213: -3219368384013755437
+    second: forestCliff__101
+  - first:
+      213: -7605553495638699857
+    second: forestCliff__102
+  - first:
+      213: -9017090383297347206
+    second: forestCliff__103
+  - first:
+      213: -6420597987324816149
+    second: forestCliff__104
+  - first:
+      213: 1588767125739722016
+    second: forestCliff__105
+  - first:
+      213: -8243092555124684202
+    second: forestCliff__106
+  - first:
+      213: -2157745918497118665
+    second: forestCliff__107
+  - first:
+      213: -6324467077705947108
+    second: forestCliff__108
+  - first:
+      213: 7418630714942226269
+    second: forestCliff__109
+  - first:
+      213: -8050575786148360273
+    second: forestCliff__110
+  - first:
+      213: 1384004276328676560
+    second: forestCliff__111
+  - first:
+      213: 1990809666262028542
+    second: forestCliff__112
+  - first:
+      213: -4198555885900149367
+    second: forestCliff__113
+  - first:
+      213: -2778984517484897372
+    second: forestCliff__114
+  - first:
+      213: -708864592916906617
+    second: forestCliff__115
+  - first:
+      213: 2709202304278602727
+    second: forestCliff__116
+  - first:
+      213: -2926710546356272914
+    second: forestCliff__117
+  - first:
+      213: -4481831372348773726
+    second: forestCliff__118
+  - first:
+      213: -2899347249491981835
+    second: forestCliff__119
+  - first:
+      213: 5600995683691861475
+    second: forestCliff__120
+  - first:
+      213: 3200209321995606802
+    second: forestCliff__121
+  - first:
+      213: -7892026035807796739
+    second: forestCliff__122
+  - first:
+      213: 4004349637775689270
+    second: forestCliff__123
+  - first:
+      213: 5699296360526154986
+    second: forestCliff__124
+  - first:
+      213: -6640148466375914962
+    second: forestCliff__125
+  - first:
+      213: -1630112343293209617
+    second: forestCliff__126
+  - first:
+      213: -3903221145480270673
+    second: forestCliff__127
+  - first:
+      213: 9216229186559903605
+    second: forestCliff__128
+  - first:
+      213: 930573013059528829
+    second: forestCliff__129
+  - first:
+      213: 1676968123926981414
+    second: forestCliff__130
+  - first:
+      213: -5433938330135250722
+    second: forestCliff__131
+  - first:
+      213: -1190375120106809211
+    second: forestCliff__132
+  - first:
+      213: 7750119734695276551
+    second: forestCliff__133
+  - first:
+      213: -4680517448670469841
+    second: forestCliff__134
+  - first:
+      213: -5124098936160940375
+    second: forestCliff__135
+  - first:
+      213: 7923820035343280141
+    second: forestCliff__136
+  - first:
+      213: 1522028022810451032
+    second: forestCliff__137
+  - first:
+      213: -3209224113056063920
+    second: forestCliff__138
+  - first:
+      213: 1797149838632045688
+    second: forestCliff__139
+  - first:
+      213: -3782717502651275762
+    second: forestCliff__140
+  - first:
+      213: 5594421283283599113
+    second: forestCliff__141
+  - first:
+      213: -5470145016954958417
+    second: forestCliff__142
+  - first:
+      213: 1781125871858610235
+    second: forestCliff__143
+  - first:
+      213: -7492603697085875921
+    second: forestCliff__144
+  - first:
+      213: 9215829177727432912
+    second: forestCliff__145
+  - first:
+      213: -169661784498878617
+    second: forestCliff__146
+  - first:
+      213: 2761582902647202931
+    second: forestCliff__147
+  - first:
+      213: 4726685821780869392
+    second: forestCliff__148
+  - first:
+      213: -8376377201955008250
+    second: forestCliff__149
+  - first:
+      213: -8995241659853996675
+    second: forestCliff__150
+  - first:
+      213: -4961972833523677512
+    second: forestCliff__151
+  - first:
+      213: -4011724925276090570
+    second: forestCliff__152
+  - first:
+      213: 301055112640380978
+    second: forestCliff__153
+  - first:
+      213: -2646730812233727467
+    second: forestCliff__154
+  - first:
+      213: -7654164842486513663
+    second: forestCliff__155
+  - first:
+      213: -750227134707824464
+    second: forestCliff__156
+  - first:
+      213: 6132949911491345180
+    second: forestCliff__157
+  - first:
+      213: 2059307662745524723
+    second: forestCliff__158
+  - first:
+      213: -8570835950726800377
+    second: forestCliff__159
+  - first:
+      213: -3129750908984341426
+    second: forestCliff__160
+  - first:
+      213: 233581438912567674
+    second: forestCliff__161
+  - first:
+      213: 6952810787769553939
+    second: forestCliff__162
+  - first:
+      213: 3824753627461617047
+    second: forestCliff__163
+  - first:
+      213: 2756121688186280067
+    second: forestCliff__164
+  - first:
+      213: -9144086324901243570
+    second: forestCliff__165
+  - first:
+      213: -4484606474911629341
+    second: forestCliff__166
+  - first:
+      213: 372852896932526460
+    second: forestCliff__167
+  - first:
+      213: -5198282410748286051
+    second: forestCliff__168
+  - first:
+      213: 114497982961329352
+    second: forestCliff__169
+  - first:
+      213: 93255399650120315
+    second: forestCliff__170
+  - first:
+      213: -1810142884974452460
+    second: forestCliff__171
+  - first:
+      213: -1361186407897162076
+    second: forestCliff__172
+  - first:
+      213: 6728576317898170391
+    second: forestCliff__173
+  - first:
+      213: 8506849675119541396
+    second: forestCliff__174
+  - first:
+      213: 3278229861482251594
+    second: forestCliff__175
+  - first:
+      213: -2878564468399514402
+    second: forestCliff__176
+  - first:
+      213: 2638636955951196106
+    second: forestCliff__177
+  - first:
+      213: -2406983860582581786
+    second: forestCliff__178
+  - first:
+      213: 311644477168232929
+    second: forestCliff__179
+  - first:
+      213: -2561461567770561272
+    second: forestCliff__180
+  - first:
+      213: 6996204056852299045
+    second: forestCliff__181
+  - first:
+      213: -1772265046086610322
+    second: forestCliff__182
+  - first:
+      213: 695525603920395427
+    second: forestCliff__183
+  - first:
+      213: -5202984331603717450
+    second: forestCliff__184
+  - first:
+      213: -5828457153492223143
+    second: forestCliff__185
+  - first:
+      213: 4215796115746432521
+    second: forestCliff__186
+  - first:
+      213: 1253570754198545688
+    second: forestCliff__187
+  - first:
+      213: -221521477550436278
+    second: forestCliff__188
+  - first:
+      213: -2781323414647671049
+    second: forestCliff__189
+  - first:
+      213: -6707978873284611141
+    second: forestCliff__190
+  - first:
+      213: -3891620720555382361
+    second: forestCliff__191
+  - first:
+      213: -5355019844232250454
+    second: forestCliff__192
+  - first:
+      213: 7579237862334630061
+    second: forestCliff__193
+  - first:
+      213: 2172687997269176679
+    second: forestCliff__194
+  - first:
+      213: 4107110375097785739
+    second: forestCliff__195
+  - first:
+      213: -9023285230683328136
+    second: forestCliff__196
+  - first:
+      213: 6669386514071191724
+    second: forestCliff__197
+  - first:
+      213: -5332043735986531648
+    second: forestCliff__198
+  - first:
+      213: 2172766840990579059
+    second: forestCliff__199
+  - first:
+      213: -1174323582014789368
+    second: forestCliff__200
+  - first:
+      213: 8127438367739721556
+    second: forestCliff__201
+  - first:
+      213: 8441414262966796201
+    second: forestCliff__202
+  - first:
+      213: 7431874670918480504
+    second: forestCliff__203
+  - first:
+      213: 5936958177418152028
+    second: forestCliff__204
+  - first:
+      213: 5112968599769521051
+    second: forestCliff__205
+  - first:
+      213: -6542103591516497667
+    second: forestCliff__206
+  - first:
+      213: -6557698869877093643
+    second: forestCliff__207
+  - first:
+      213: -1241822459709846769
+    second: forestCliff__208
+  - first:
+      213: 47445685061337985
+    second: forestCliff__209
+  - first:
+      213: 7152854754012829585
+    second: forestCliff__210
+  - first:
+      213: 7992277003156561901
+    second: forestCliff__211
+  - first:
+      213: 4443286230262783952
+    second: forestCliff__212
+  - first:
+      213: -1457893936238920091
+    second: forestCliff__213
+  - first:
+      213: 3435886367613834303
+    second: forestCliff__214
+  - first:
+      213: -8815476670946728635
+    second: forestCliff__215
+  - first:
+      213: -8800852576736644705
+    second: forestCliff__216
+  - first:
+      213: -428215033920905738
+    second: forestCliff__217
+  - first:
+      213: -4963787694723005660
+    second: forestCliff__218
+  - first:
+      213: -1548860474197390088
+    second: forestCliff__219
+  - first:
+      213: -4143568402558302349
+    second: forestCliff__220
+  - first:
+      213: 2454740734686501642
+    second: forestCliff__221
+  - first:
+      213: -3606110871369552554
+    second: forestCliff__222
+  - first:
+      213: 8142325312716224556
+    second: forestCliff__223
+  - first:
+      213: 5100044911926149972
+    second: forestCliff__224
+  - first:
+      213: 8074425446667282573
+    second: forestCliff__225
+  - first:
+      213: -8699378522251249940
+    second: forestCliff__226
+  - first:
+      213: 516837560068246264
+    second: forestCliff__227
+  - first:
+      213: 3249900660700946665
+    second: forestCliff__228
+  - first:
+      213: -2054020300555249533
+    second: forestCliff__229
+  - first:
+      213: 6338929547328340647
+    second: forestCliff__230
+  - first:
+      213: 7629785705272024967
+    second: forestCliff__231
+  - first:
+      213: 750335577348404190
+    second: forestCliff__232
+  - first:
+      213: 5741011812811881150
+    second: forestCliff__233
+  - first:
+      213: 1019816532951585537
+    second: forestCliff__234
+  - first:
+      213: 4623004768764665828
+    second: forestCliff__235
+  - first:
+      213: -6766342385474426445
+    second: forestCliff__236
+  - first:
+      213: -732488075952377956
+    second: forestCliff__237
+  - first:
+      213: 1218025261120253175
+    second: forestCliff__238
+  - first:
+      213: 5204993757939674382
+    second: forestCliff__239
+  - first:
+      213: 809527967033866270
+    second: forestCliff__240
+  - first:
+      213: -8206608011082567969
+    second: forestCliff__241
+  - first:
+      213: 44458570959228500
+    second: forestCliff__242
+  - first:
+      213: -4412403659639621190
+    second: forestCliff__243
+  - first:
+      213: 4243474216977607156
+    second: forestCliff__244
+  - first:
+      213: -6194873575408759798
+    second: forestCliff__245
+  - first:
+      213: 5523831732233990706
+    second: forestCliff__246
+  - first:
+      213: 8004918193267954648
+    second: forestCliff__247
+  - first:
+      213: 130957576791279129
+    second: forestCliff__248
+  - first:
+      213: 4555699091369165420
+    second: forestCliff__249
+  - first:
+      213: -373836629849745205
+    second: forestCliff__250
+  - first:
+      213: 3025621497268073034
+    second: forestCliff__251
+  - first:
+      213: -9095368511025088106
+    second: forestCliff__252
+  - first:
+      213: -3318042246209013643
+    second: forestCliff__253
+  - first:
+      213: 6929304806530209054
+    second: forestCliff__254
+  - first:
+      213: 7008498430360313362
+    second: forestCliff__255
+  - first:
+      213: 6639795025704465251
+    second: forestCliff__256
+  - first:
+      213: -8722873579463053342
+    second: forestCliff__257
+  - first:
+      213: 5888377249903451624
+    second: forestCliff__258
+  - first:
+      213: 2623354001818108839
+    second: forestCliff__259
+  - first:
+      213: -7256839756533376656
+    second: forestCliff__260
+  - first:
+      213: -5048200017619263247
+    second: forestCliff__261
+  - first:
+      213: 6952576279112048640
+    second: forestCliff__262
+  - first:
+      213: -5005817940065338390
+    second: forestCliff__263
+  - first:
+      213: -4855259009415441663
+    second: forestCliff__264
+  - first:
+      213: 3121748722509274533
+    second: forestCliff__265
+  - first:
+      213: 4510233317050178404
+    second: forestCliff__266
+  - first:
+      213: -3975825289100848275
+    second: forestCliff__267
+  - first:
+      213: -8612293715972098626
+    second: forestCliff__268
+  - first:
+      213: 1769043850295244570
+    second: forestCliff__269
+  - first:
+      213: -5387657038240244224
+    second: forestCliff__270
+  - first:
+      213: 967174706453303905
+    second: forestCliff__271
+  - first:
+      213: -3318507898923377437
+    second: forestCliff__272
+  - first:
+      213: 7664794146263031684
+    second: forestCliff__273
+  - first:
+      213: -689552852994598797
+    second: forestCliff__274
+  - first:
+      213: -4170051855394659082
+    second: forestCliff__275
+  - first:
+      213: -7895424789351380640
+    second: forestCliff__276
+  - first:
+      213: -7364636553605943693
+    second: forestCliff__277
+  - first:
+      213: -6635125959954319012
+    second: forestCliff__278
+  - first:
+      213: -5874887459691502324
+    second: forestCliff__279
+  - first:
+      213: 3777705714858239866
+    second: forestCliff__280
+  - first:
+      213: -7805207047586481608
+    second: forestCliff__281
+  - first:
+      213: -317820380937267443
+    second: forestCliff__282
+  - first:
+      213: 8670116029433155873
+    second: forestCliff__283
+  - first:
+      213: 9036139861782165163
+    second: forestCliff__284
+  - first:
+      213: 4401139890491817306
+    second: forestCliff__285
+  - first:
+      213: 5822153348937904365
+    second: forestCliff__286
+  - first:
+      213: 5961291628479691911
+    second: forestCliff__287
+  - first:
+      213: -1432231581960319790
+    second: forestCliff__288
+  - first:
+      213: 8304346201778001910
+    second: forestCliff__289
+  - first:
+      213: -8575820343773431230
+    second: forestCliff__290
+  - first:
+      213: 1603255324109215795
+    second: forestCliff__291
+  - first:
+      213: 6630320865622866463
+    second: forestCliff__292
+  - first:
+      213: 6371110538731452996
+    second: forestCliff__293
+  - first:
+      213: 6341347947788685440
+    second: forestCliff__294
+  - first:
+      213: -874699928005687740
+    second: forestCliff__295
+  - first:
+      213: -8948042838771803055
+    second: forestCliff__296
+  - first:
+      213: 638059910968488513
+    second: forestCliff__297
+  - first:
+      213: -392104476573908382
+    second: forestCliff__298
+  - first:
+      213: 7361390503927098409
+    second: forestCliff__299
+  - first:
+      213: 6795496147062889429
+    second: forestCliff__300
+  - first:
+      213: 1376147273187118100
+    second: forestCliff__301
+  - first:
+      213: -2660355303763812690
+    second: forestCliff__302
+  - first:
+      213: 6859184977195505173
+    second: forestCliff__303
+  - first:
+      213: 2792080851542199620
+    second: forestCliff__304
+  - first:
+      213: 1586649186582898781
+    second: forestCliff__305
+  - first:
+      213: -4989918090203908931
+    second: forestCliff__306
+  - first:
+      213: -3643380933686464781
+    second: forestCliff__307
+  - first:
+      213: 6303694127879154229
+    second: forestCliff__308
+  - first:
+      213: 162608921766902155
+    second: forestCliff__309
+  - first:
+      213: -4376012950323998815
+    second: forestCliff__310
+  - first:
+      213: -7531660521419671969
+    second: forestCliff__311
+  - first:
+      213: 1646292036840320784
+    second: forestCliff__312
+  - first:
+      213: -3120905987895067438
+    second: forestCliff__313
+  - first:
+      213: -7088522297044030120
+    second: forestCliff__314
+  - first:
+      213: 1244834868600307024
+    second: forestCliff__315
+  - first:
+      213: -8423346341430268007
+    second: forestCliff__316
+  - first:
+      213: -381048620755444831
+    second: forestCliff__317
+  - first:
+      213: -5272658634863644117
+    second: forestCliff__318
+  - first:
+      213: -4314080333319186474
+    second: forestCliff__319
+  - first:
+      213: -5769077260382948864
+    second: forestCliff__320
+  - first:
+      213: -4850800266388340063
+    second: forestCliff__321
+  - first:
+      213: -660124191991094690
+    second: forestCliff__322
+  - first:
+      213: 3565107851849422966
+    second: forestCliff__323
+  - first:
+      213: 8760885083726537135
+    second: forestCliff__324
+  - first:
+      213: 2311664803557261138
+    second: forestCliff__325
+  - first:
+      213: -3981035229160699088
+    second: forestCliff__326
+  - first:
+      213: 9141371336054584177
+    second: forestCliff__327
+  - first:
+      213: 5786729039759646152
+    second: forestCliff__328
+  - first:
+      213: -5851365093921956220
+    second: forestCliff__329
+  - first:
+      213: 24494128240786798
+    second: forestCliff__330
+  - first:
+      213: 2926108415651007129
+    second: forestCliff__331
+  - first:
+      213: 672926627575003358
+    second: forestCliff__332
+  - first:
+      213: 3295875475090418130
+    second: forestCliff__333
+  - first:
+      213: 2676623713647162344
+    second: forestCliff__334
+  - first:
+      213: -1767799924098019649
+    second: forestCliff__335
+  - first:
+      213: -9186115536704649303
+    second: forestCliff__336
+  - first:
+      213: -8100957313600417891
+    second: forestCliff__337
+  - first:
+      213: 4016285444126108530
+    second: forestCliff__338
+  - first:
+      213: 4491725611369907624
+    second: forestCliff__339
+  - first:
+      213: -4623469908632395596
+    second: forestCliff__340
+  - first:
+      213: -4949752736743610652
+    second: forestCliff__341
+  - first:
+      213: -14070801051561184
+    second: forestCliff__342
+  - first:
+      213: -8445750746440697026
+    second: forestCliff__343
+  - first:
+      213: 8511845828537327940
+    second: forestCliff__344
+  - first:
+      213: 2266099599028246025
+    second: forestCliff__345
+  - first:
+      213: 3714945073439812487
+    second: forestCliff__346
+  - first:
+      213: -6661177880175958038
+    second: forestCliff__347
+  - first:
+      213: 7990849080970614331
+    second: forestCliff__348
+  - first:
+      213: -2541050294939235887
+    second: forestCliff__349
+  - first:
+      213: 331968043073448520
+    second: forestCliff__350
+  - first:
+      213: 4695707448937545873
+    second: forestCliff__351
+  - first:
+      213: 2639633181245602938
+    second: forestCliff__352
+  - first:
+      213: 5896477118871704399
+    second: forestCliff__353
+  - first:
+      213: 5427448602996530095
+    second: forestCliff__354
+  - first:
+      213: 3728206026537439826
+    second: forestCliff__355
+  - first:
+      213: -5695845993575937473
+    second: forestCliff__356
+  - first:
+      213: 7982538409584752535
+    second: forestCliff__357
+  - first:
+      213: 2687370888096345137
+    second: forestCliff__358
+  - first:
+      213: -3474576823601699197
+    second: forestCliff__359
+  - first:
+      213: -3529945208836163116
+    second: forestCliff__360
+  - first:
+      213: -7491522379349098844
+    second: forestCliff__361
+  - first:
+      213: 4947645360736051735
+    second: forestCliff__362
+  - first:
+      213: 5213861223632112458
+    second: forestCliff__363
+  - first:
+      213: 3686044823270481235
+    second: forestCliff__364
+  - first:
+      213: -594056353650375659
+    second: forestCliff__365
+  - first:
+      213: 484169155765460601
+    second: forestCliff__366
+  - first:
+      213: -7098873670287443124
+    second: forestCliff__367
+  - first:
+      213: -7157499890801750755
+    second: forestCliff__368
+  - first:
+      213: -290360655317649783
+    second: forestCliff__369
+  - first:
+      213: -3439549453257329382
+    second: forestCliff__370
+  - first:
+      213: 2182220014859636818
+    second: forestCliff__371
+  - first:
+      213: 7942989522749818501
+    second: forestCliff__372
+  - first:
+      213: -4777167527885556598
+    second: forestCliff__373
+  - first:
+      213: 3973462935931587864
+    second: forestCliff__374
+  - first:
+      213: -1056071153954673233
+    second: forestCliff__375
+  - first:
+      213: 2378295148807554150
+    second: forestCliff__376
+  - first:
+      213: -6607673861361801492
+    second: forestCliff__377
+  - first:
+      213: -119634600969991349
+    second: forestCliff__378
+  - first:
+      213: 966919014106315978
+    second: forestCliff__379
+  - first:
+      213: -5478890553130237020
+    second: forestCliff__380
+  - first:
+      213: -5865519855891813993
+    second: forestCliff__381
+  - first:
+      213: 3247081755569159526
+    second: forestCliff__382
+  - first:
+      213: 2597904942201565367
+    second: forestCliff__383
+  - first:
+      213: -3423219013212661420
+    second: forestCliff__384
+  - first:
+      213: 6719243609351371894
+    second: forestCliff__385
+  - first:
+      213: 1639905503838387905
+    second: forestCliff__386
+  - first:
+      213: -7176912900862207805
+    second: forestCliff__387
+  - first:
+      213: 6317825734674025547
+    second: forestCliff__388
+  - first:
+      213: 6555308050238000224
+    second: forestCliff__389
+  - first:
+      213: 1020336670306618163
+    second: forestCliff__390
+  - first:
+      213: -8070468543989799472
+    second: forestCliff__391
+  - first:
+      213: -6823976293069718400
+    second: forestCliff__392
+  - first:
+      213: 6451826373248877022
+    second: forestCliff__393
+  - first:
+      213: -6597310619040914639
+    second: forestCliff__394
+  - first:
+      213: -1374718384210538931
+    second: forestCliff__395
+  - first:
+      213: 2229698214496470503
+    second: forestCliff__396
+  - first:
+      213: 6764849245388212269
+    second: forestCliff__397
+  - first:
+      213: -3680104443743768526
+    second: forestCliff__398
+  - first:
+      213: 1591878780527769439
+    second: forestCliff__399
+  - first:
+      213: -8557902444851387836
+    second: forestCliff__400
+  - first:
+      213: 4141555525886242199
+    second: forestCliff__401
+  - first:
+      213: 835939950199304336
+    second: forestCliff__402
+  - first:
+      213: 6675588480700323944
+    second: forestCliff__403
+  - first:
+      213: 5953172208032448225
+    second: forestCliff__404
+  - first:
+      213: 3803911265385764655
+    second: forestCliff__405
+  - first:
+      213: 7766606156704703212
+    second: forestCliff__406
+  - first:
+      213: -3903033817167307804
+    second: forestCliff__407
+  - first:
+      213: 7447012213124671567
+    second: forestCliff__408
+  - first:
+      213: -4369023637885554458
+    second: forestCliff__409
+  - first:
+      213: -7591064922025068790
+    second: forestCliff__410
+  - first:
+      213: -8290480779810306509
+    second: forestCliff__411
+  - first:
+      213: -4695236220177750567
+    second: forestCliff__412
+  - first:
+      213: 3996173012882187775
+    second: forestCliff__413
+  - first:
+      213: 1183748270639648668
+    second: forestCliff__414
+  - first:
+      213: 9025086079564826311
+    second: forestCliff__415
+  - first:
+      213: 6939054466053341527
+    second: forestCliff__416
+  - first:
+      213: -6723211117814568076
+    second: forestCliff__417
+  - first:
+      213: -8538709421327475893
+    second: forestCliff__418
+  - first:
+      213: -5761736626022716916
+    second: forestCliff__419
+  - first:
+      213: -7095869239024598962
+    second: forestCliff__420
+  - first:
+      213: -7067236699991091095
+    second: forestCliff__421
+  - first:
+      213: -731298471424616958
+    second: forestCliff__422
+  - first:
+      213: 5113850248723412736
+    second: forestCliff__423
+  - first:
+      213: -3531762976582440787
+    second: forestCliff__424
+  - first:
+      213: -1258605351199658717
+    second: forestCliff__425
+  - first:
+      213: 8583098257410682332
+    second: forestCliff__426
+  - first:
+      213: -946584542222803609
+    second: forestCliff__427
+  - first:
+      213: -5162814681713782958
+    second: forestCliff__428
+  - first:
+      213: 6403046653699272269
+    second: forestCliff__429
+  - first:
+      213: -5979270469239825580
+    second: forestCliff__430
+  - first:
+      213: -541229524354508197
+    second: forestCliff__431
+  - first:
+      213: 2945816089584537223
+    second: forestCliff__432
+  - first:
+      213: -1041966800288823623
+    second: forestCliff__433
+  - first:
+      213: 5007332374688390546
+    second: forestCliff__434
+  - first:
+      213: -6641200178806380052
+    second: forestCliff__435
+  - first:
+      213: -7112935387643707934
+    second: forestCliff__436
+  - first:
+      213: 9068048973394567660
+    second: forestCliff__437
+  - first:
+      213: 6820456187479633808
+    second: forestCliff__438
+  - first:
+      213: -7361355879845974715
+    second: forestCliff__439
+  - first:
+      213: 9024745699807752106
+    second: forestCliff__440
+  - first:
+      213: 73803835864797860
+    second: forestCliff__441
+  - first:
+      213: 9220097663444677836
+    second: forestCliff__442
+  - first:
+      213: -5271330549038515441
+    second: forestCliff__443
+  - first:
+      213: -7095813954731140100
+    second: forestCliff__444
+  - first:
+      213: 2442164061019818239
+    second: forestCliff__445
+  - first:
+      213: -5201590825105093573
+    second: forestCliff__446
+  - first:
+      213: -928960247693757152
+    second: forestCliff__447
+  - first:
+      213: 8827774173384408956
+    second: forestCliff__448
+  - first:
+      213: -2113363541137070760
+    second: forestCliff__449
+  - first:
+      213: -3259953176806226065
+    second: forestCliff__450
+  - first:
+      213: 2225045508713257335
+    second: forestCliff__451
+  - first:
+      213: 6109755295675061915
+    second: forestCliff__452
+  - first:
+      213: -7594696113741238582
+    second: forestCliff__453
+  - first:
+      213: 3272102773791125261
+    second: forestCliff__454
+  - first:
+      213: 6872142877939436408
+    second: forestCliff__458
+  - first:
+      213: -6246203537932632765
+    second: forestCliff__459
+  - first:
+      213: -7179304058679545009
+    second: forestCliff__460
+  - first:
+      213: -1424880817913338523
+    second: forestCliff__461
+  - first:
+      213: -2510791327721108820
+    second: forestCliff__462
+  - first:
+      213: -8705487998285477211
+    second: forestCliff__463
+  - first:
+      213: 6941074654020209742
+    second: forestCliff__464
+  - first:
+      213: 5768019519624002850
+    second: forestCliff__465
+  - first:
+      213: 8574708965205373948
+    second: forestCliff__466
+  - first:
+      213: -9175661881038381689
+    second: forestCliff__467
+  - first:
+      213: 3874297074907511781
+    second: forestCliff__468
+  - first:
+      213: 7918664381948034058
+    second: forestCliff__472
+  - first:
+      213: 4434056151805965880
+    second: forestCliff__473
+  - first:
+      213: 167267385927361055
+    second: forestCliff__474
+  - first:
+      213: -4413348946072355851
+    second: forestCliff__475
+  - first:
+      213: 2514689101855187126
+    second: forestCliff__476
+  - first:
+      213: 3574425256514633458
+    second: forestCliff__477
+  - first:
+      213: -1867261045740648110
+    second: forestCliff__478
+  - first:
+      213: -4117648227887845875
+    second: forestCliff__479
+  - first:
+      213: -7929814327544464775
+    second: forestCliff__480
+  - first:
+      213: -626414037889795370
+    second: forestCliff__481
+  - first:
+      213: -1214060492988997421
+    second: forestCliff__482
+  - first:
+      213: 3551865261578221123
+    second: forestCliff__486
+  - first:
+      213: -5041573977989555563
+    second: forestCliff__487
+  - first:
+      213: -134383603981593853
+    second: forestCliff__488
+  - first:
+      213: -1707172454802158859
+    second: forestCliff__489
+  - first:
+      213: 559386295996554300
+    second: forestCliff__490
+  - first:
+      213: -3059690794437374292
+    second: forestCliff__491
+  - first:
+      213: 6730292768123583464
+    second: forestCliff__492
+  - first:
+      213: -6126893115609209013
+    second: forestCliff__493
+  - first:
+      213: 1029828250037888631
+    second: forestCliff__494
+  - first:
+      213: -9121948704632984422
+    second: forestCliff__497
+  - first:
+      213: 8922545144334292805
+    second: forestCliff__498
+  - first:
+      213: -2920740292429193242
+    second: forestCliff__499
+  - first:
+      213: 5662494989849424834
+    second: forestCliff__500
+  - first:
+      213: 2768712902622215779
+    second: forestCliff__501
+  - first:
+      213: 4310628370405374500
+    second: forestCliff__502
+  - first:
+      213: -7740179328657564151
+    second: forestCliff__503
+  - first:
+      213: -4579695755307046748
+    second: forestCliff__504
+  - first:
+      213: -979709195304931675
+    second: forestCliff__505
+  - first:
+      213: -4037299858863509968
+    second: forestCliff__506
+  - first:
+      213: -5837807927680851260
+    second: forestCliff__510
+  - first:
+      213: -2325296704576163432
+    second: forestCliff__511
+  - first:
+      213: 7344566213781396318
+    second: forestCliff__512
+  - first:
+      213: -8631629383791165851
+    second: forestCliff__513
+  - first:
+      213: -980709981244178942
+    second: forestCliff__514
+  - first:
+      213: 6438436034608898598
+    second: forestCliff__515
+  - first:
+      213: -1373649356508109384
+    second: forestCliff__516
+  - first:
+      213: -5352111058420957593
+    second: forestCliff__517
+  - first:
+      213: 4725300426505317807
+    second: forestCliff__518
+  - first:
+      213: 8386745004615940363
+    second: forestCliff__519
+  - first:
+      213: -2534537995937068006
+    second: forestCliff__523
+  - first:
+      213: 3701225907911489650
+    second: forestCliff__524
+  - first:
+      213: -8130242909095908562
+    second: forestCliff__525
+  - first:
+      213: -6460567905513467567
+    second: forestCliff__526
+  - first:
+      213: 2165005885874884197
+    second: forestCliff__527
+  - first:
+      213: -2726088965268363108
+    second: forestCliff__528
+  - first:
+      213: 4536276272570230186
+    second: forestCliff__529
+  - first:
+      213: 6979350294216516048
+    second: forestCliff__530
+  - first:
+      213: 2382433132913069254
+    second: forestCliff__531
+  - first:
+      213: 6131196534126235889
+    second: forestCliff__532
+  - first:
+      213: -258008264426133815
+    second: forestCliff__533
+  - first:
+      213: 5728074669823801527
+    second: forestCliff__534
+  - first:
+      213: 3164917612068433533
+    second: forestCliff__535
+  - first:
+      213: -8573998231058195821
+    second: forestCliff__536
+  - first:
+      213: -1560261452301206847
+    second: forestCliff__537
+  - first:
+      213: -4796147211519223771
+    second: forestCliff__538
+  - first:
+      213: -7726020768727820731
+    second: forestCliff__539
+  - first:
+      213: 4782471661174270701
+    second: forestCliff__540
+  - first:
+      213: -990578656462911155
+    second: forestCliff__541
+  - first:
+      213: 1733868342213359646
+    second: forestCliff__542
+  - first:
+      213: 4987066807829024068
+    second: forestCliff__543
+  - first:
+      213: 7945056518908962709
+    second: forestCliff__544
+  - first:
+      213: 8472456000055704447
+    second: forestCliff__545
+  - first:
+      213: 3581766193697480643
+    second: forestCliff__546
+  - first:
+      213: -6529323698918252781
+    second: forestCliff__547
+  - first:
+      213: 2619049950571321994
+    second: forestCliff__548
+  - first:
+      213: -8832903434432955425
+    second: forestCliff__549
+  - first:
+      213: -7779421920349400344
+    second: forestCliff__550
+  - first:
+      213: -2113868838334487990
+    second: forestCliff__551
+  - first:
+      213: 5441280418662158912
+    second: forestCliff__552
+  - first:
+      213: 4059267144625590973
+    second: forestCliff__553
+  - first:
+      213: -1152839069626169489
+    second: forestCliff__554
+  - first:
+      213: -770605652337788961
+    second: forestCliff__555
+  - first:
+      213: 5966744456037423724
+    second: forestCliff__556
+  - first:
+      213: -3253988601068609883
+    second: forestCliff__557
+  - first:
+      213: -6578457916706438183
+    second: forestCliff__558
+  - first:
+      213: 4378918123409128815
+    second: forestCliff__559
+  - first:
+      213: -6037807428245607666
+    second: forestCliff__560
+  - first:
+      213: -4365398900413811795
+    second: forestCliff__561
+  - first:
+      213: -3071232338030553193
+    second: forestCliff__562
+  - first:
+      213: -4849255184912313629
+    second: forestCliff__563
+  - first:
+      213: -2879231441209088772
+    second: forestCliff__564
+  - first:
+      213: 332192753504990851
+    second: forestCliff__565
+  - first:
+      213: -479195212573800651
+    second: forestCliff__566
+  - first:
+      213: -5693127034957079303
+    second: forestCliff__567
+  - first:
+      213: 1376771784536253988
+    second: forestCliff__568
+  - first:
+      213: -5418806946425064907
+    second: forestCliff__455
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: forestCliff__0
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c59e8ea161417470800000000000000
+      internalID: 8390559468564157895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e8be3b104852ee0800000000000000
+      internalID: -1286476975696015738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96df985770ba00f80800000000000000
+      internalID: -8142320077760758423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d87db73c2949ab9f0800000000000000
+      internalID: -451885454531504243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1306d09c72f3b6aa0800000000000000
+      internalID: -6166765824644390863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d97921e7ac118d0800000000000000
+      internalID: -2877296044086420207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__6
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d599839b6e427090800000000000000
+      internalID: -8038276160959179310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__7
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b82536a691c87c880800000000000000
+      internalID: -8590743723398966645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__8
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f589bf4ec6d879890800000000000000
+      internalID: -7451331559623518113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ce288c2414924ca0800000000000000
+      internalID: -6034097736355664188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83704298b667e4780800000000000000
+      internalID: -8696883626171431112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 368
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90bafa36dc9aaba0800000000000000
+      internalID: -6076872303256620902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f375315176750b50800000000000000
+      internalID: 6558778661400835061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__13
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f887e722141ad10800000000000000
+      internalID: 2135059314756849513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__14
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 358b23437d9cb7c20800000000000000
+      internalID: 3205377485935130707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__15
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71b839542dbc6a80800000000000000
+      internalID: -8472188835177385605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a4aebb70b1c6bf0800000000000000
+      internalID: -329858952673474001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__17
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0b0737112e017230800000000000000
+      internalID: 3634701909550893838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__18
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55563c77627e1fa40800000000000000
+      internalID: 5400351580598003029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__19
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e288b8bbc5e2f7150800000000000000
+      internalID: 5872463414932768814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__20
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ff837101dd90570800000000000000
+      internalID: 8433514838406790913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__21
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4c7bf1d2ce14560800000000000000
+      internalID: 7296372549866734772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__22
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9d6ceba76845ea0800000000000000
+      internalID: -5884930951321560669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc8f97439ced3cb0800000000000000
+      internalID: -4882486303693763338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b04996e89020b0fd0800000000000000
+      internalID: -2374802138440559605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__25
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694047afbb542a4c0800000000000000
+      internalID: -4277780022385441642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__26
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5045991c2c9c677a0800000000000000
+      internalID: -6379689983814839291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e29dcfad186462ae0800000000000000
+      internalID: -1574493496180680402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__28
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de85d004abdc2200800000000000000
+      internalID: 156741584486239959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1dfc80091452c740800000000000000
+      internalID: 5170787788534906140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__30
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1cec09e97aae910800000000000000
+      internalID: 1867489294974632399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__31
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13cb695d901053d0800000000000000
+      internalID: -3220055465573760227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11e092e0f442bb20800000000000000
+      internalID: 3148654890869383454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6d33ef8b082fd90800000000000000
+      internalID: -7065443333363738894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__34
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e224f64cd8e338150800000000000000
+      internalID: 5873607117628195374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__35
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7bf5608ff9ac1890800000000000000
+      internalID: -7485921565760685186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e9d977fdc4c2c050800000000000000
+      internalID: 5819430057415399906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__37
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67915a19f90e85670800000000000000
+      internalID: 8527812870373972342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__38
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74b2fe20f8a479480800000000000000
+      internalID: -8892556961129747641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39182bb10b34cc9d0800000000000000
+      internalID: -2752750848572227181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee67de45d9e2af80800000000000000
+      internalID: -8096652077698683166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b451be39b127a010800000000000000
+      internalID: 1199964905222001842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__42
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a90fc2bb2d1b81e90800000000000000
+      internalID: -7054693297634348902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__43
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ffa9b331a21751d0800000000000000
+      internalID: -3362198113241944075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__44
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c336afcbe8474200800000000000000
+      internalID: 164180089060602816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__45
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff48ef2316a692850800000000000000
+      internalID: 6352725715082708223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__46
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40bee73a0523818c0800000000000000
+      internalID: -4028414544761132284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__47
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 536c78f0f7b0af2b0800000000000000
+      internalID: -5550110950431406539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__48
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e19bca3093a7800800000000000000
+      internalID: 610863387407621635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__49
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbbd43c9f141fa8a0800000000000000
+      internalID: -6291788028416042053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74aa3dcdd78cb1370800000000000000
+      internalID: 8294443581634226759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__51
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873138062ac451550800000000000000
+      internalID: 6130890728022414200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa1115fadbafb4f0800000000000000
+      internalID: -810740451000640859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__53
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c006d90250d217560800000000000000
+      internalID: 7309673170244296716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__54
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f49c948518c7f30800000000000000
+      internalID: 4574673537696616291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__55
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bc214b86655beb0800000000000000
+      internalID: -4704759228020896866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__56
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5995ad6994911b90800000000000000
+      internalID: -7272868536536164003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__57
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed48e183646614db0800000000000000
+      internalID: -4809450475279711010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__58
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203255760890a29e0800000000000000
+      internalID: -1645492266756398334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__59
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e2628adcd1065f0800000000000000
+      internalID: -765579167526408685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__60
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8d3e3730d9e52a0800000000000000
+      internalID: -6746782553599649626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__61
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0aafecdd0d3d7730800000000000000
+      internalID: 3998419173925431818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f280ebd240ce9a0800000000000000
+      internalID: -6202577992287768740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfb0ff69de6e0be0800000000000000
+      internalID: -1509146944957530156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__64
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f655e1c4702ea7c20800000000000000
+      internalID: 3205122605797234031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a87b70d2ce909e0800000000000000
+      internalID: -1654531709934794149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__66
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f9f2ac9ce3b0ac0800000000000000
+      internalID: -3887944816902824063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__67
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2503baffa4df3a310800000000000000
+      internalID: 1415253206483284050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__68
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6d95a2fc75a27e0800000000000000
+      internalID: -1789521354645973334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6418fa6fa135bce0800000000000000
+      internalID: -1390150280490249108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__70
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d659af64178137360800000000000000
+      internalID: 7166098306877789549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__71
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029283d6633e5f160800000000000000
+      internalID: 7058797813873256736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__72
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceb3fdf28abc22690800000000000000
+      internalID: -7628310895594095636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__73
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae5ec135940615a0800000000000000
+      internalID: -6551043569131561304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__74
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7867a6a2270c4c520800000000000000
+      internalID: 2721511671409047175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a079b7897a9aa9e00800000000000000
+      internalID: 1052340000227301130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89e5a54867092c2f0800000000000000
+      internalID: -954041332348068200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 052192a0ebbef6120800000000000000
+      internalID: 2409403527113282128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__78
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd64ec5551e806f0800000000000000
+      internalID: -718076383818650146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6356fb46b406aa120800000000000000
+      internalID: 2425857226221511990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__80
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 272
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9bf50a779cae5040800000000000000
+      internalID: 4638334432825441180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__81
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c7a0fef969b5f520800000000000000
+      internalID: 2735296213597333446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b736502358ac220800000000000000
+      internalID: 2506962592470367032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__83
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df2b32036b7f753f0800000000000000
+      internalID: -911988037655481603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be65bb2f8b91b1180800000000000000
+      internalID: -9143686336308619541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__85
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b06e75fda81e0140800000000000000
+      internalID: 4687711397566374072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7d886aef03ede90800000000000000
+      internalID: -6999102900613359635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__87
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cbac6bfd6cef4350800000000000000
+      internalID: 6003276785421953988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__88
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545502314782a0c00800000000000000
+      internalID: 867550357224445253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__89
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 785292ee04ada6720800000000000000
+      internalID: 2840322487418955143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__90
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7838b1c1db7c852a0800000000000000
+      internalID: -6748424426580376697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__91
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b2576a4b56f7d20800000000000000
+      internalID: 3278450880310225773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__92
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8365be884698a2200800000000000000
+      internalID: 156088201984562744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__93
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b80db006530055460800000000000000
+      internalID: 7229685006057853067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__94
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cd2d843be47f8310800000000000000
+      internalID: 1409473761938058693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__95
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315212a2824420ed0800000000000000
+      internalID: -2449320308039932653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569cac60d8f6d0410800000000000000
+      internalID: 1444933706950822245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__97
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45653f93c8d25de40800000000000000
+      internalID: 5680496585288668756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df5f0e3bbbc4f9c40800000000000000
+      internalID: 5521216037239977469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__99
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d39536b89196c10800000000000000
+      internalID: 2047195592074542484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__100
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2872621e8a74c1140800000000000000
+      internalID: 4691703702470666114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__101
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db9cbdf2818253d0800000000000000
+      internalID: -3219368384013755437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__102
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa099344465a37690800000000000000
+      internalID: -7605553495638699857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__103
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7188fb221cdcd280800000000000000
+      internalID: -9017090383297347206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__104
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be49ae7f52475e6a0800000000000000
+      internalID: -6420597987324816149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__105
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 025d880884f6c0610800000000000000
+      internalID: 1588767125739722016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__106
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a4021bef6aa9d80800000000000000
+      internalID: -8243092555124684202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7362e64f4852e02e0800000000000000
+      internalID: -2157745918497118665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__108
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c182fa783bafa38a0800000000000000
+      internalID: -6324467077705947108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__109
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ffee3645544f660800000000000000
+      internalID: 7418630714942226269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 208
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf044de9fb964090800000000000000
+      internalID: -8050575786148360273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__111
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc313a7e88f43310800000000000000
+      internalID: 1384004276328676560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__112
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef056fcf7d6c0ab10800000000000000
+      internalID: 1990809666262028542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__113
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98dcb4baaabbbb5c0800000000000000
+      internalID: -4198555885900149367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab90071e401f69d0800000000000000
+      internalID: -2778984517484897372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__115
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78df551986b9926f0800000000000000
+      internalID: -708864592916906617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__116
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3223b4425099520800000000000000
+      internalID: 2709202304278602727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__117
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee08b04b34c3267d0800000000000000
+      internalID: -2926710546356272914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__118
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa23f3dc165dc1c0800000000000000
+      internalID: -4481831372348773726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__119
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f94689b90373c7d0800000000000000
+      internalID: -2899347249491981835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__120
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e513f226ebbabd40800000000000000
+      internalID: 5600995683691861475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__121
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b11744c6d696c20800000000000000
+      internalID: 3200209321995606802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__122
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df1ca895224e97290800000000000000
+      internalID: -7892026035807796739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__123
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636851497ce429730800000000000000
+      internalID: 4004349637775689270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec86def7d7f71f40800000000000000
+      internalID: 5699296360526154986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__125
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a0fcd962479d3a0800000000000000
+      internalID: -6640148466375914962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__126
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe35702e57da069e0800000000000000
+      internalID: -1630112343293209617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__127
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faceadf5c09f4d9c0800000000000000
+      internalID: -3903221145480270673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__128
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5778d719d9f96ef70800000000000000
+      internalID: 9216229186559903605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__129
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d786af8993f0aec00800000000000000
+      internalID: 930573013059528829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__130
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b225eaf99c54710800000000000000
+      internalID: 1676968123926981414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__131
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed8b8e401e5c694b0800000000000000
+      internalID: -5433938330135250722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__132
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58812989220fa7fe0800000000000000
+      internalID: -1190375120106809211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__133
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700b14936d4fd8b60800000000000000
+      internalID: 7750119734695276551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21aafacd267b0fb0800000000000000
+      internalID: -4680517448670469841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__135
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae8b2c8a2b83e8b0800000000000000
+      internalID: -5124098936160940375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__136
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0862c6075017fd60800000000000000
+      internalID: 7923820035343280141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__137
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85c9ec53c645f1510800000000000000
+      internalID: 1522028022810451032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__138
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05edca02cab8673d0800000000000000
+      internalID: -3209224113056063920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__139
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87c40dba142c0f810800000000000000
+      internalID: 1797149838632045688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__140
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0661d81976118bc0800000000000000
+      internalID: -3782717502651275762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__141
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ff002448063ad40800000000000000
+      internalID: 5594421283283599113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__142
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fadc682d6142614b0800000000000000
+      internalID: -5470145016954958417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__143
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b30f36c2b84d7b810800000000000000
+      internalID: 1781125871858610235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__144
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f29fa6092ace40890800000000000000
+      internalID: -7492603697085875921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__145
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8bf114fc335ef70800000000000000
+      internalID: 9215829177727432912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__146
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7674cf2818d35adf0800000000000000
+      internalID: -169661784498878617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__147
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374241ab40d135620800000000000000
+      internalID: 2761582902647202931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__148
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 011cf1c36bf889140800000000000000
+      internalID: 4726685821780869392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__149
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6019ac4905121cb80800000000000000
+      internalID: -8376377201955008250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__150
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7d7b938e5b7a2380800000000000000
+      internalID: -8995241659853996675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__151
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6cea06ff7832bb0800000000000000
+      internalID: -4961972833523677512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__152
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f865c7f6d7358c0800000000000000
+      internalID: -4011724925276090570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__153
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230ceb6a7009d2400800000000000000
+      internalID: 301055112640380978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__154
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5124ab8695ce44bd0800000000000000
+      internalID: -2646730812233727467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__155
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100ce4711a1f6c590800000000000000
+      internalID: -7654164842486513663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__156
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b881e65568a695f0800000000000000
+      internalID: -750227134707824464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__157
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b74b3637d9c1550800000000000000
+      internalID: 6132949911491345180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__158
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9df299861249c10800000000000000
+      internalID: 2059307662745524723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__159
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70c18c0fc164e0980800000000000000
+      internalID: -8570835950726800377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__160
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c48826124e094d0800000000000000
+      internalID: -3129750908984341426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__161
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a791284c419dd3300800000000000000
+      internalID: 233581438912567674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__162
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 314128be2985d7060800000000000000
+      internalID: 6952810787769553939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7958c36e821441530800000000000000
+      internalID: 3824753627461617047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__164
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388d716a216bf3620800000000000000
+      internalID: 2756121688186280067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__165
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4511c85feda91180800000000000000
+      internalID: -9144086324901243570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__166
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3efb979eb2a73c1c0800000000000000
+      internalID: -4484606474911629341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__167
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79732bfbb3ac2500800000000000000
+      internalID: 372852896932526460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__168
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9bef2960bdfbd7b0800000000000000
+      internalID: -5198282410748286051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__169
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c4a8e11f47c69100800000000000000
+      internalID: 114497982961329352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__170
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b725889ba4f4b4100800000000000000
+      internalID: 93255399650120315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__171
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 411a56cf2a411e6e0800000000000000
+      internalID: -1810142884974452460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__172
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ae13348c281c1de0800000000000000
+      internalID: -1361186407897162076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__173
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7102d68f284b06d50800000000000000
+      internalID: 6728576317898170391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__174
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49cb52355b66e0670800000000000000
+      internalID: 8506849675119541396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__175
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a454ab1b0bc9e7d20800000000000000
+      internalID: 3278229861482251594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__176
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edc5cf50ed84d08d0800000000000000
+      internalID: -2878564468399514402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__177
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac760b2d4525e9420800000000000000
+      internalID: 2638636955951196106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__178
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e970e97eeca89ed0800000000000000
+      internalID: -2406983860582581786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__179
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e923d5300f235400800000000000000
+      internalID: 311644477168232929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__180
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805783b764cd37cd0800000000000000
+      internalID: -2561461567770561272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__181
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52df3d0b582871160800000000000000
+      internalID: 6996204056852299045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__182
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e629a289456a767e0800000000000000
+      internalID: -1772265046086610322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__183
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ac3dd90ad007a900800000000000000
+      internalID: 695525603920395427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__184
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b256d621594bc7b0800000000000000
+      internalID: -5202984331603717450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__185
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95bf28179192d1fa0800000000000000
+      internalID: -5828457153492223143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__186
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906a9842b34818a30800000000000000
+      internalID: 4215796115746432521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__187
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 815a2d095f3956110800000000000000
+      internalID: 1253570754198545688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__188
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a409c7cc36ffcecf0800000000000000
+      internalID: -221521477550436278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__189
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6f2782711c669d0800000000000000
+      internalID: -2781323414647671049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__190
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3bb0151c878e2a0800000000000000
+      internalID: -6707978873284611141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__191
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a92fb6c29f2ef9c0800000000000000
+      internalID: -3891620720555382361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__192
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab7e53e2d52fa5b0800000000000000
+      internalID: -5355019844232250454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__193
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da885a4edacde2960800000000000000
+      internalID: 7579237862334630061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__194
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 761fbfcd830f62e10800000000000000
+      internalID: 2172687997269176679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__195
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d560130236ff830800000000000000
+      internalID: 4107110375097785739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__196
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 871771ed3e9d6c280800000000000000
+      internalID: -9023285230683328136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__197
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca08ef8d2bb6e8c50800000000000000
+      internalID: 6669386514071191724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__198
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c21da5f876c006b0800000000000000
+      internalID: -5332043735986531648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__199
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 80
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 379bdf81ee7372e10800000000000000
+      internalID: 2172766840990579059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__200
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809e4aa8ce6f3bfe0800000000000000
+      internalID: -1174323582014789368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__201
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457b10b62267ac070800000000000000
+      internalID: 8127438367739721556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__202
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af3d023c8de52570800000000000000
+      internalID: 8441414262966796201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__203
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872b15f23a2532760800000000000000
+      internalID: 7431874670918480504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__204
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c580c5bc100546250800000000000000
+      internalID: 5936958177418152028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__205
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b1df01ad9e4f640800000000000000
+      internalID: 5112968599769521051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__206
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df81adfe177c535a0800000000000000
+      internalID: -6542103591516497667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__207
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5facefc3f9f5ef4a0800000000000000
+      internalID: -6557698869877093643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__208
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b84e66d0924cee0800000000000000
+      internalID: -1241822459709846769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__209
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 183c434699f88a000800000000000000
+      internalID: 47445685061337985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__210
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19716e6508b044360800000000000000
+      internalID: 7152854754012829585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__211
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def9ba7e6954aee60800000000000000
+      internalID: 7992277003156561901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__212
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df923ee849b9ad30800000000000000
+      internalID: 4443286230262783952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__213
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e7842703584cbe0800000000000000
+      internalID: -1457893936238920091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__214
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f34da3e7278beaf20800000000000000
+      internalID: 3435886367613834303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__215
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5452a769ca229a580800000000000000
+      internalID: -8815476670946728635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__216
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91f70bd5371dd580800000000000000
+      internalID: -8800852576736644705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__217
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd99a702bcae0af0800000000000000
+      internalID: -428215033920905738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__218
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423849314651d1bb0800000000000000
+      internalID: -4963787694723005660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__219
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fc42dcda97518ae0800000000000000
+      internalID: -1548860474197390088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__220
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377cafecd761f76c0800000000000000
+      internalID: -4143568402558302349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__221
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b9ba241bdf01220800000000000000
+      internalID: 2454740734686501642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__222
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65de75bb44584fdc0800000000000000
+      internalID: -3606110871369552554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__223
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c283f166bb95ff070800000000000000
+      internalID: 8142325312716224556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__224
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45385e183dff6c640800000000000000
+      internalID: 5100044911926149972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__225
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d886af1e92f1e0070800000000000000
+      internalID: 8074425446667282573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__226
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce63d864359954780800000000000000
+      internalID: -8699378522251249940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__227
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa8276c50d2c2700800000000000000
+      internalID: 516837560068246264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__228
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e02364ae67f91d20800000000000000
+      internalID: 3249900660700946665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__229
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38896f75b67ae73e0800000000000000
+      internalID: -2054020300555249533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__230
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2cbb496d668f750800000000000000
+      internalID: 6338929547328340647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__231
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f9713bca172e960800000000000000
+      internalID: 7629785705272024967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__232
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed3703e6b3ab96a00800000000000000
+      internalID: 750335577348404190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__233
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba39f993db2caf40800000000000000
+      internalID: 5741011812811881150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__234
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10356a6cbbd172e00800000000000000
+      internalID: 1019816532951585537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: forestCliff__235
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef972de756382040800000000000000
+      internalID: 4623004768764665828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
