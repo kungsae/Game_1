@@ -1,16 +1,18 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Player : Entity
 {
     public GameObject hand;
-    private ItemBase weapon;
+    public ItemBase weapon;
     public override void Awake()
     {
         base.Awake();
-        weapon = hand.GetComponentInChildren<ItemBase>();
-        weapon.player = this;
+        //weapon = hand.GetComponentInChildren<ItemBase>();
+        //inventory.PushItem(weapon);
+        //weapon.player = this;
     }
 
     // Update is called once per frame
@@ -19,6 +21,7 @@ public class Player : Entity
         base.Update();
         Look();
         Move();
+        if(!EventSystem.current.IsPointerOverGameObject())
         if (Input.GetMouseButton(0))
         {
             Attack();
@@ -48,7 +51,10 @@ public class Player : Entity
     }
     public override void Attack()
     {
-        weapon.Attack();
+        if (weapon != null)
+        {
+            weapon.Attack();
+        }
     }
     public void ChangeWeapon(ItemBase newWeapon)
     {
@@ -61,20 +67,27 @@ public class Player : Entity
     }
     public void InteractObj()
     {
-        RaycastHit2D[] hit = Physics2D.CircleCastAll(transform.position,1,transform.right,0, LayerMask.GetMask("Weapon"));
-        ItemBase newWeapon = null;
+        RaycastHit2D[] hit = Physics2D.CircleCastAll(transform.position,1,transform.right,0, LayerMask.GetMask("Item"));
+        ItemBase item = null;
         Debug.Log(hit.Length);
-        foreach (var item in hit)
+        foreach (var idx in hit)
         {
-            if (item.collider.GetComponent<ItemBase>() != weapon)
+            if (idx.collider.GetComponent<ItemBase>() != null)
             {
-                newWeapon = item.collider.GetComponent<ItemBase>();
+                item = idx.collider.GetComponent<ItemBase>();
                 break;
             }
         }
-        if (newWeapon != null)
+        if (item != null)
         {
-            ChangeWeapon(newWeapon);
+            if (!GameManager.instance.inventory.MaxInventory())
+            {
+                Debug.Log("A");
+                item.transform.parent = hand.transform;
+                GameManager.instance.inventory.PushItem(item);
+                item.gameObject.SetActive(false);
+            }
+            //ChangeWeapon(item);
         }
     }
 }

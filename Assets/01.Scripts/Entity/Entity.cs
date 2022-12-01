@@ -52,7 +52,7 @@ public abstract class Entity : MonoBehaviour
         Debug.Log(gameObject.name + " : " + _damage + "피해 입음");
         rigid.velocity = (-(attackPos - (Vector2)transform.position).normalized* totalPushP);
         ParticleSystem p = PoolManager<ParticleSystem>.instance.GetPool(testParticle.gameObject);
-        p.transform.position = attackPos;
+        p.transform.position = /*attackPos*/transform.position;
         p.gameObject.SetActive(true);
         p.Play();
         StartCoroutine(hitEffectTime());
@@ -76,7 +76,7 @@ public abstract class Entity : MonoBehaviour
             transform.localScale = scale;
         }
     }
-    IEnumerator hitEffectTime()
+    protected virtual IEnumerator hitEffectTime()
     {
         spriteRender.material = data.hitMat;
         yield return new WaitForSeconds(0.1f);

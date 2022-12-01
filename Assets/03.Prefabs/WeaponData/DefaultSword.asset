@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58bbf8547e2367a4c850949b4d807741, type: 3}
   m_Name: DefaultSword
   m_EditorClassIdentifier: 
-  powerP: 30
+  powerP: 100
   pushP: 5
   coolDown: 1

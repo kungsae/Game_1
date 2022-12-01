@@ -74,7 +74,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 11
+  m_SortingOrder: 0
   m_Sprite: {fileID: -1705405124355515273, guid: e84430ab0ce8ecc418e5dc7a2ba3f1d2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -146,7 +146,7 @@ MonoBehaviour:
   animator: {fileID: 0}
   player: {fileID: 0}
   data: {fileID: 11400000, guid: d13dc8ef008056f40a8e1c34bb2de7f2, type: 2}
-  fireAngle: 0
+  fireAngle: 15
   firePos: {fileID: 8973308274642877455}
   projection: {fileID: 3785811407312142060, guid: 467112c0cf5a9f643ac1d0fa3cfde8a5, type: 3}
 --- !u!1 &7005443749402385155
