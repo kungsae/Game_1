@@ -8,8 +8,7 @@ public class InvenItem : MonoBehaviour
 {
     private Image image;
     private RectTransform rect;
-    public int index;
-    public ItemBase data;
+    public List<ItemBase> data = new List<ItemBase>();
 
     [SerializeField] private GameObject handler;
     private void Awake()
@@ -17,10 +16,9 @@ public class InvenItem : MonoBehaviour
         image = GetComponent<Image>();
         rect = GetComponent<RectTransform>();
     }
-    public void ImageSet(Sprite sprite,int idx)
+    public void ImageSet(Sprite sprite)
     {
         image.sprite = sprite;
-        index = idx;
     }
     public void Init()
     {

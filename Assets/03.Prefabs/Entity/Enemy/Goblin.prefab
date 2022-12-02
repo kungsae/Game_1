@@ -120,6 +120,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: aa9bf89c459568b4a9431633e30488ae, type: 2}
   testParticle: {fileID: 2581805845457154387, guid: 9625864f20ed19840ae8d2e9d95d9586, type: 3}
+  items:
+  - item: {fileID: 4272297406207753150, guid: 35c95e5462f474b4f986f25d8536bda1, type: 3}
+    dropProbability: 0.001
+    dropMin: 0
+    dropMax: 0
 --- !u!50 &4563809478167196049
 Rigidbody2D:
   serializedVersion: 4

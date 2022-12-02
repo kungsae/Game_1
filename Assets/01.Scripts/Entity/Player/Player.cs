@@ -63,6 +63,7 @@ public class Player : Entity
             weapon.ChangeWeapon(false);
         }
         weapon = newWeapon;
+        weapon.transform.parent = hand.transform;
         weapon.ChangeWeapon(true, this);
     }
     public void InteractObj()
@@ -83,9 +84,8 @@ public class Player : Entity
             if (!GameManager.instance.inventory.MaxInventory())
             {
                 Debug.Log("A");
-                item.transform.parent = hand.transform;
                 GameManager.instance.inventory.PushItem(item);
-                item.gameObject.SetActive(false);
+                //item.gameObject.SetActive(false);
             }
             //ChangeWeapon(item);
         }

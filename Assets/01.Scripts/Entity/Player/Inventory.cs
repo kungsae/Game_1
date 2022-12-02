@@ -32,10 +32,21 @@ public class Inventory : MonoBehaviour
             {
                 InvenItem invenItem = PoolManager<InvenItem>.instance.GetPool(slotPrefab);
                 invenItem.gameObject.SetActive(true);
-                invenItem.ImageSet(item.GetComponent<SpriteRenderer>().sprite,i);
+                invenItem.ImageSet(item.GetComponent<SpriteRenderer>().sprite);
                 //inventory[i] = item;
-                inventorySlots[i].GetItem(invenItem,item);
+                inventorySlots[i].GetItem(invenItem, item);
+                item.gameObject.SetActive(false);
                 break;
+            }
+            else
+            {
+                if (inventorySlots[i].item.data[0].name == item.name)
+                {
+                    PoolManager<ItemBase>.instance.SetPool(item);
+                    inventorySlots[i].AddItem(item);
+                    Debug.Log(inventorySlots[i].item.data.Count);
+                    break;
+                }
             }
         }
         //inventory.Add(item);
@@ -49,15 +60,28 @@ public class Inventory : MonoBehaviour
         {
             if (inventorySlots[i] == item)
             {
-                inventorySlots[i].item.data.transform.parent = null;
-                if (inventorySlots[i].item.data == GameManager.instance.player.weapon)
+                ItemBase outItem;
+                if (inventorySlots[i].item.data.Count <= 1)
                 {
-                    GameManager.instance.player.weapon = null;
+                    PoolManager<InvenItem>.instance.SetPool(inventorySlots[i].item);
+                    outItem = inventorySlots[i].item.data.Last();
+                    inventorySlots[i].item.data.RemoveAt(inventorySlots[i].item.data.Count - 1);
+                    if (outItem == GameManager.instance.player.weapon)
+                    {
+                        GameManager.instance.player.weapon = null;
+                    }
+                    inventorySlots[i].item = null;
                 }
-                inventorySlots[i].item.data.ChangeWeapon(false);
-                inventorySlots[i].item.data.gameObject.SetActive(true);
-                PoolManager<InvenItem>.instance.SetPool(inventorySlots[i].item);
-                inventorySlots[i].item = null;
+                else
+                {
+                    outItem = PoolManager<ItemBase>.instance.GetPool(inventorySlots[i].item.data.Last().gameObject);
+                    inventorySlots[i].item.data.RemoveAt(inventorySlots[i].item.data.Count - 1);
+                }
+                outItem.gameObject.SetActive(true);
+                outItem.transform.parent = null;
+                outItem.transform.position = GameManager.instance.player.transform.position;
+                outItem.ChangeWeapon(false);
+                outItem.gameObject.SetActive(true);
 
                 break;
             }

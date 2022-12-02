@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public abstract class Entity : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public abstract class Entity : MonoBehaviour
     protected bool isDie = false;
     protected Material origineMat;
     protected Collider2D[] cols;
+    [SerializeField] protected dropItems[] items;
+
 
     protected WaitForSeconds coolDown;
 
@@ -49,7 +52,7 @@ public abstract class Entity : MonoBehaviour
         float totalPushP = Mathf.Clamp(pushPower - data.pushResist,0,100);
         animator.Play("Hit");
         hp -= _damage;
-        Debug.Log(gameObject.name + " : " + _damage + "피해 입음");
+        //Debug.Log(gameObject.name + " : " + _damage + "피해 입음");
         rigid.velocity = (-(attackPos - (Vector2)transform.position).normalized* totalPushP);
         ParticleSystem p = PoolManager<ParticleSystem>.instance.GetPool(testParticle.gameObject);
         p.transform.position = /*attackPos*/transform.position;
@@ -87,6 +90,27 @@ public abstract class Entity : MonoBehaviour
     {
         yield return new WaitForSeconds(1f);
     }
+    protected virtual void DropItem()
+    {
+        foreach (var item in items)
+        {
+            float getprobability = Random.Range(0f, 100f);
+            if (getprobability < 1)
+            {
+                Debug.Log(getprobability);
+            }
+            if (item.dropProbability >= getprobability)
+            {
+                int itemCount = Random.Range(item.dropMin, item.dropMax);
+                for (int i = 0; i < itemCount; i++)
+                {
+                    ItemBase getItem = PoolManager<ItemBase>.instance.GetPool(item.item.gameObject);
+                    getItem.gameObject.SetActive(true);
+                    getItem.DropItem(transform.position);
+                }
+            }
+        }
+    }
     public virtual void Die()
     {
         dieEvent?.Invoke();
@@ -94,7 +118,16 @@ public abstract class Entity : MonoBehaviour
         {
             item.enabled = false;
         }
+        DropItem();
         animator.Play("Die");
     }
 
+}
+[System.Serializable]
+public struct dropItems
+{
+    public ItemBase item;
+    public float dropProbability;
+    public int dropMin;
+    public int dropMax;
 }

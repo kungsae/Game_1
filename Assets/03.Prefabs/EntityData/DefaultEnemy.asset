@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHp: 100
   damage: 1
-  speed: 1
+  speed: 2
   pushResist: 0
   hitMat: {fileID: 2100000, guid: d5737b711c758eb4390b6f4fd4149f0e, type: 2}

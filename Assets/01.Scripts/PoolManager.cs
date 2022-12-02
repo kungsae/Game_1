@@ -26,26 +26,27 @@ public class PoolManager<T> where T : Component
     }
     public T GetPool(GameObject obj)
     {
-        if (!pools.ContainsKey(obj.gameObject.name+ "(Clone)"))
+        if (!pools.ContainsKey(obj.gameObject.name))
         {
-            pools.Add(obj.gameObject.name+ "(Clone)", new Queue<T>());
+            pools.Add(obj.gameObject.name, new Queue<T>());
         }
-        if (pools[obj.gameObject.name+ "(Clone)"].Count == 0)
+        Debug.Log(obj.gameObject.name + pools[obj.gameObject.name].Count);
+        if (pools[obj.gameObject.name].Count == 0)
         {
             GameObject newObj = Instance.spawner.Instantiation(obj, parent);
+            newObj.name = newObj.name.Replace("(Clone)", "");
             newObj.SetActive(false);
             return newObj.GetComponent<T>();
         }
-        Debug.Log(pools[obj.gameObject.name + "(Clone)"].Count + obj.name);
-        return pools[obj.gameObject.name + "(Clone)"].Dequeue();
+        return pools[obj.gameObject.name].Dequeue();
     }
     public void SetPool(T obj)
     {
         if (!pools.ContainsKey(obj.gameObject.name))
         {
             pools.Add(obj.gameObject.name, new Queue<T>());
-            obj.transform.parent = parent.transform;
         }
+        obj.transform.parent = parent.transform;
         obj.gameObject.SetActive(false);
         pools[obj.gameObject.name].Enqueue(obj);
     }
