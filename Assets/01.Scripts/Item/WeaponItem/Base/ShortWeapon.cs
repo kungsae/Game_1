@@ -23,7 +23,7 @@ public class ShortWeapon : ItemBase
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Entity"))
+        if ((collision.CompareTag("Entity")&&gameObject.layer == LayerMask.NameToLayer("Hand"))||(collision.CompareTag("Player") && gameObject.layer == LayerMask.NameToLayer("Hand")))
         {
             Entity entity = collision.GetComponent<Entity>();
             if (entity != null)

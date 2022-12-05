@@ -42,7 +42,7 @@ public class EnemySpawner : MonoBehaviour
 
         for (int i = 0; i < enemys[level].enemyCount.Length; i++)
         {
-            enemys[level].enemyCount[i] += 100;
+            enemys[level].enemyCount[i] += 5;
         }
          for (int i = 0; i < enemys[level].enemyCount.Length; i++)
         {

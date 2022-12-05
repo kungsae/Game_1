@@ -1,26 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class InvenSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
     public InvenItem item;
     public RectTransform rect;
-    public TextMeshProUGUI countText;
+    public Text countText;
     private Canvas canvas;
     private Transform handler;
     private void Awake()
     {
         canvas = GetComponentInParent<Canvas>();
-        countText = GetComponentInChildren<TextMeshProUGUI>();
-        countText.gameObject.SetActive(false);
         handler = transform.parent.Find("Hand");
     }
     public void GetItem(InvenItem _item, ItemBase _data)
     {
         rect = _item.GetComponent<RectTransform>();
+        countText = _item.GetComponentInChildren<Text>();
         item = _item;
         item.transform.parent = transform;
         item.data.Add(_data);
@@ -44,7 +43,8 @@ public class InvenSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDra
     }
     public void SlotChange(InvenSlot newParent, InvenItem newItem)
     {
-        RectTransform temp;
+        RectTransform tempRect;
+        Text tempText;
         if (item == null)
         {
             newParent.item = null;
@@ -55,11 +55,14 @@ public class InvenSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDra
             newParent.item.transform.parent = newParent.transform;
             newParent.item.Init();
         }
-        temp = newParent.rect;
+        tempRect = newParent.rect;
+        tempText = newParent.countText;
         newParent.rect = rect;
+        newParent.countText = countText;
         item = newItem;
         item.transform.parent = transform;
-        rect = temp;
+        rect = tempRect;
+        countText = tempText;
         item.Init();
 
     }
@@ -97,10 +100,6 @@ public class InvenSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDra
                 if (item != null)
                 {
                     countText.text = item.data.Count.ToString();
-                }
-                else
-                {
-                    countText.gameObject.SetActive(false);
                 }
             }
         }

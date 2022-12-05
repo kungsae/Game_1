@@ -5,7 +5,6 @@ using UnityEngine.EventSystems;
 
 public class Player : Entity
 {
-    public GameObject hand;
     public ItemBase weapon;
     public override void Awake()
     {
@@ -90,4 +89,5 @@ public class Player : Entity
             //ChangeWeapon(item);
         }
     }
+
 }

@@ -8,7 +8,7 @@ public class ItemBase : MonoBehaviour
 {
     [HideInInspector] public Action attackAction;
     [HideInInspector] public Animator animator;
-    [HideInInspector] public Player player;
+    [HideInInspector] public Entity player;
     [SerializeField] protected WeaponData data;
     protected WaitForSeconds coolDown;
     protected bool canAttack = true;

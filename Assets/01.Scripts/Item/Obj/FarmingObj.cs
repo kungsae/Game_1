@@ -23,11 +23,11 @@ public class FarmingObj : Entity
     public override void Die()
     {
         base.Die();
-        StartCoroutine(Wait());
+        StartCoroutine(DisableEntity());
     }
-    public override IEnumerator Wait()
+    public override IEnumerator DisableEntity()
     {
-        yield return base.Wait();
+        yield return base.DisableEntity();
         PoolManager<FarmingObj>.instance.SetPool(this);
     }
     protected override void DropItem()

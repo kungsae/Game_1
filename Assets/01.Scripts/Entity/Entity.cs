@@ -9,6 +9,7 @@ public abstract class Entity : MonoBehaviour
     public EntityData data;
     public Action dieEvent;
     public GameObject testParticle;
+    public GameObject hand;
     protected float hp;
     protected Animator animator;
     protected SpriteRenderer spriteRender;
@@ -28,6 +29,7 @@ public abstract class Entity : MonoBehaviour
         isDie = false;
         dieEvent = null;
         hp = data.maxHp;
+        animator.Play("Idle");
         foreach (var item in cols)
         {
             item.enabled = true;
@@ -42,7 +44,7 @@ public abstract class Entity : MonoBehaviour
         cols = GetComponents<Collider2D>();
         Init();
     }
-    private void OnEnable()
+    protected virtual void OnEnable()
     {
         Init();
     }
@@ -50,9 +52,9 @@ public abstract class Entity : MonoBehaviour
     {
         if (isDie) return;
         float totalPushP = Mathf.Clamp(pushPower - data.pushResist,0,100);
-        animator.Play("Hit");
         hp -= _damage;
         //Debug.Log(gameObject.name + " : " + _damage + "피해 입음");
+        animator.Play("Hit");
         rigid.velocity = (-(attackPos - (Vector2)transform.position).normalized* totalPushP);
         ParticleSystem p = PoolManager<ParticleSystem>.instance.GetPool(testParticle.gameObject);
         p.transform.position = /*attackPos*/transform.position;
@@ -63,7 +65,7 @@ public abstract class Entity : MonoBehaviour
         {
             Die();
             isDie = true;
-            rigid.velocity = (-(attackPos - (Vector2)transform.position).normalized * totalPushP)*3;
+            rigid.velocity = (-(attackPos - (Vector2)transform.position).normalized * totalPushP)* 1.25f;
         }
     }
     public virtual void Update()
@@ -86,7 +88,7 @@ public abstract class Entity : MonoBehaviour
         spriteRender.material = origineMat;
         rigid.velocity = Vector2.zero;
     }
-    public virtual IEnumerator Wait()
+    public virtual IEnumerator DisableEntity()
     {
         yield return new WaitForSeconds(1f);
     }

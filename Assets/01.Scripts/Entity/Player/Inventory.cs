@@ -30,6 +30,11 @@ public class Inventory : MonoBehaviour
         {
             if (!inventorySlots[i].HaveItem())
             {
+                if (ContainItem(item))
+                {
+                    Debug.Log("¿÷¿Ω");
+                    continue;
+                }
                 InvenItem invenItem = PoolManager<InvenItem>.instance.GetPool(slotPrefab);
                 invenItem.gameObject.SetActive(true);
                 invenItem.ImageSet(item.GetComponent<SpriteRenderer>().sprite);
@@ -86,5 +91,17 @@ public class Inventory : MonoBehaviour
                 break;
             }
         }
+    }
+    public bool ContainItem(ItemBase item)
+    {
+        for (int i = 0; i < inventorySlots.Count; i++)
+        {
+
+            if (inventorySlots[i].item!=null && inventorySlots[i].item.data[0].name == item.name)
+            {
+                return true;
+            }
+        }
+        return false;
     }
 }
