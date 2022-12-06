@@ -132,16 +132,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: aa9bf89c459568b4a9431633e30488ae, type: 2}
-  testParticle: {fileID: 2581805845457154387, guid: 9625864f20ed19840ae8d2e9d95d9586, type: 3}
+  hitParticle: {fileID: 2581805845457154387, guid: 9625864f20ed19840ae8d2e9d95d9586, type: 3}
+  hand: {fileID: 4043343937920579021}
   items:
   - item: {fileID: 4272297406207753150, guid: 35c95e5462f474b4f986f25d8536bda1, type: 3}
     dropProbability: 0.001
     dropMin: 0
     dropMax: 0
-  hand: {fileID: 4043343937920579021}
-  weapon: {fileID: 0}
   skillData: {fileID: 11400000, guid: 10b2518cd5cff5741a63236afbf3aa4e, type: 2}
-  testFloat: 0
 --- !u!95 &4563809478167196052
 Animator:
   serializedVersion: 3

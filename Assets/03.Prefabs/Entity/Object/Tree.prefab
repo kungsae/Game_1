@@ -99,7 +99,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   data: {fileID: 11400000, guid: 11cfba632b5a3c04e95770b763913c47, type: 2}
-  testParticle: {fileID: 2581805845457154387, guid: 9625864f20ed19840ae8d2e9d95d9586, type: 3}
+  hitParticle: {fileID: 2581805845457154387, guid: 9625864f20ed19840ae8d2e9d95d9586, type: 3}
+  hand: {fileID: 0}
   items:
   - item: {fileID: 4272297406207753150, guid: f950c74761525aa439c10bad4d786954, type: 3}
     dropProbability: 30

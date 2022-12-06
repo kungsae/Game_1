@@ -25,7 +25,6 @@ public class Inventory : MonoBehaviour
     }
     public void PushItem(ItemBase item)
     {
-        itemCount++;
         for (int i = 0; i < inventorySlots.Count; i++)
         {
             if (!inventorySlots[i].HaveItem())
@@ -35,6 +34,7 @@ public class Inventory : MonoBehaviour
                     Debug.Log("ÀÖÀ½");
                     continue;
                 }
+                itemCount++;
                 InvenItem invenItem = PoolManager<InvenItem>.instance.GetPool(slotPrefab);
                 invenItem.gameObject.SetActive(true);
                 invenItem.ImageSet(item.GetComponent<SpriteRenderer>().sprite);

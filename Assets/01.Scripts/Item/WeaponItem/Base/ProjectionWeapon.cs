@@ -38,7 +38,7 @@ public class ProjectionWeapon : ItemBase
         bullet.transform.rotation = Quaternion.FromToRotation(Vector2.right * -player.transform.localScale.x, player.hand.transform.up);
         bullet.transform.rotation *= Quaternion.Euler(0,0,Random.Range(-fireAngle * 0.5f, fireAngle * 0.5f));
         bullet.transform.position = firePos.position;
-        bullet.Fire(player.data.damage * data.powerP);
+        bullet.Fire(player.data.damage * data.attackP);
         bullet.gameObject.SetActive(true);
     }
     protected override IEnumerator CoolDown()

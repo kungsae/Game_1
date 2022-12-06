@@ -8,7 +8,7 @@ public abstract class Entity : MonoBehaviour
 {
     public EntityData data;
     public Action dieEvent;
-    public GameObject testParticle;
+    public GameObject hitParticle;
     public GameObject hand;
     protected float hp;
     protected Animator animator;
@@ -51,16 +51,17 @@ public abstract class Entity : MonoBehaviour
     public virtual void OnDamage(float _damage,Vector2 attackPos,float pushPower = 0)
     {
         if (isDie) return;
+        StartCoroutine(hitEffectTime());
+
         float totalPushP = Mathf.Clamp(pushPower - data.pushResist,0,100);
         hp -= _damage;
         //Debug.Log(gameObject.name + " : " + _damage + "피해 입음");
         animator.Play("Hit");
         rigid.velocity = (-(attackPos - (Vector2)transform.position).normalized* totalPushP);
-        ParticleSystem p = PoolManager<ParticleSystem>.instance.GetPool(testParticle.gameObject);
+        ParticleSystem p = PoolManager<ParticleSystem>.instance.GetPool(hitParticle.gameObject);
         p.transform.position = /*attackPos*/transform.position;
         p.gameObject.SetActive(true);
         p.Play();
-        StartCoroutine(hitEffectTime());
         if (hp <= 0)
         {
             Die();
@@ -116,6 +117,7 @@ public abstract class Entity : MonoBehaviour
     public virtual void Die()
     {
         dieEvent?.Invoke();
+        StartCoroutine(DisableEntity());
         foreach (var item in cols)
         {
             item.enabled = false;

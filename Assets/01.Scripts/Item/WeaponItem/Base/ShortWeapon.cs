@@ -30,7 +30,7 @@ public class ShortWeapon : ItemBase
             {
                 if (!attackedEntitys.Contains(entity))
                 {
-                    entity.OnDamage(player.data.damage * data.powerP,transform.position,data.pushP);
+                    entity.OnDamage(player.data.damage * data.attackP,transform.position,data.knockbackP);
                     attackedEntitys.Add(entity);
                 }
             }

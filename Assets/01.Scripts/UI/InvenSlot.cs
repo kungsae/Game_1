@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class InvenSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHandler
+public class InvenSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDragHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public InvenItem item;
     public RectTransform rect;
@@ -15,6 +15,17 @@ public class InvenSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDra
     {
         canvas = GetComponentInParent<Canvas>();
         handler = transform.parent.Find("Hand");
+    }
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        if (item == null) return;
+        GameManager.instance.info.gameObject.SetActive(true);
+        GameManager.instance.info.gameObject.transform.position = Input.mousePosition;
+        GameManager.instance.info.SetInfo(item.data[0].data);
+    }
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        GameManager.instance.info.gameObject.SetActive(false);
     }
     public void GetItem(InvenItem _item, ItemBase _data)
     {
@@ -68,7 +79,6 @@ public class InvenSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDra
     }
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("A");
         if (item != null)
             rect.anchoredPosition -= eventData.delta / canvas.scaleFactor;
     }

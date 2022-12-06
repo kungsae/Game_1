@@ -5,7 +5,8 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "EnemyAttackData", menuName = "ScriptableObjects/EnemyAttackData", order = 1)]
 public class EnemySkillData : ScriptableObject
 {
-    public Skill[] skillData;
+    public float aggroRange;
+    public Skill[] data;
 }
 [System.Serializable]
 public struct Skill

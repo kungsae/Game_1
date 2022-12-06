@@ -25,14 +25,14 @@ public class Player : Entity
         {
             Attack();
         }
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKey(KeyCode.E))
         {
             InteractObj();
         }
     }
     public void Look()
     {
-        dir = -(transform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition));
+        dir = -(transform.position + new Vector3(0,0.5f,0) - Camera.main.ScreenToWorldPoint(Input.mousePosition));
         hand.transform.rotation = Quaternion.FromToRotation(Vector2.right * transform.localScale.x, dir);
     }
     public void Move()

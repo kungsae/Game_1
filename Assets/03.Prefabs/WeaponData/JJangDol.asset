@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58bbf8547e2367a4c850949b4d807741, type: 3}
   m_Name: JJangDol
   m_EditorClassIdentifier: 
-  powerP: 80
-  pushP: 8
+  attackP: 80
+  knockbackP: 8
   coolDown: 1.2
