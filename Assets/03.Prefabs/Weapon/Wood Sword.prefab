@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9183512980089094016}
   - component: {fileID: 4272297406207753150}
   m_Layer: 6
-  m_Name: Wood
+  m_Name: Wood Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6351902264584881540, guid: 9f5f1b1fcd2b382429228f3c24925cd9, type: 3}
+  m_Sprite: {fileID: -4689988903102377207, guid: 426ffb679d952b044b7c5e4f83552ea1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,18 +117,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.26250005, y: 0.4499998}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.15, y: 0.2}
+    oldSize: {x: 0.75, y: 1.5}
     newSize: {x: 0.04, y: 0.04}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.75, y: 1.5}
   m_EdgeRadius: 0
 --- !u!114 &4272297406207753150
 MonoBehaviour:
@@ -144,4 +144,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   player: {fileID: 0}
-  data: {fileID: 11400000, guid: 1c7fac1a750069b4a82a83ca26ba9b59, type: 2}
+  data: {fileID: 11400000, guid: 8c3126a3cd0596b4ab695f1df3ccd72d, type: 2}

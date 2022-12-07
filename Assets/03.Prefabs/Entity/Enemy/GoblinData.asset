@@ -16,4 +16,4 @@ MonoBehaviour:
   data:
   - attackName: Attack
     distance: 1.72
-    powerP: 0
+    powerP: 1

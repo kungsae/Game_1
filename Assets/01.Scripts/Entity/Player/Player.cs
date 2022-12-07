@@ -37,6 +37,7 @@ public class Player : Entity
     }
     public void Move()
     {
+        if (onDamage) return;
         Vector2 move = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical")).normalized * data.speed;
         if (move.sqrMagnitude != 0)
         {
@@ -54,6 +55,11 @@ public class Player : Entity
         {
             weapon.Attack();
         }
+    }
+    public override void Die()
+    {
+        base.Die();
+        this.enabled = false;
     }
     public void ChangeWeapon(ItemBase newWeapon)
     {

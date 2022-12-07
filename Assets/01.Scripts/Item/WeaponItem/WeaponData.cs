@@ -8,4 +8,11 @@ public class WeaponData : ScriptableObject
     public float attackP;
     public float knockbackP;
     public float coolDown;
+    public CraftItem[] craftItems;
+}
+[System.Serializable]
+public struct CraftItem
+{
+    public WeaponData needItem;
+    public int needCount;
 }

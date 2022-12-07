@@ -18,6 +18,8 @@ public abstract class Entity : MonoBehaviour
     protected bool isDie = false;
     protected Material origineMat;
     protected Collider2D[] cols;
+    protected Collider2D defaultAttackCol;
+    protected bool onDamage = false;
     [SerializeField] protected dropItems[] items;
 
 
@@ -32,6 +34,7 @@ public abstract class Entity : MonoBehaviour
         animator.Play("Idle");
         foreach (var item in cols)
         {
+            if (item == defaultAttackCol) continue;
             item.enabled = true;
         }
     }
@@ -42,6 +45,14 @@ public abstract class Entity : MonoBehaviour
         spriteRender = GetComponent<SpriteRenderer>();
         origineMat = spriteRender.material;
         cols = GetComponents<Collider2D>();
+        foreach (var item in cols)
+        {
+            if (item.isTrigger)
+            {
+                defaultAttackCol = item;
+            }
+        }
+        Debug.Log(defaultAttackCol);
         Init();
     }
     protected virtual void OnEnable()
@@ -55,7 +66,7 @@ public abstract class Entity : MonoBehaviour
 
         float totalPushP = Mathf.Clamp(pushPower - data.pushResist,0,100);
         hp -= _damage;
-        //Debug.Log(gameObject.name + " : " + _damage + "피해 입음");
+        Debug.Log(gameObject.name + " : " + _damage + "피해 입음");
         animator.Play("Hit");
         rigid.velocity = (-(attackPos - (Vector2)transform.position).normalized* totalPushP);
         ParticleSystem p = PoolManager<ParticleSystem>.instance.GetPool(hitParticle.gameObject);
@@ -84,9 +95,11 @@ public abstract class Entity : MonoBehaviour
     }
     protected virtual IEnumerator hitEffectTime()
     {
+        onDamage = true;
         spriteRender.material = data.hitMat;
         yield return new WaitForSeconds(0.1f);
         spriteRender.material = origineMat;
+        onDamage = false;
         rigid.velocity = Vector2.zero;
     }
     public virtual IEnumerator DisableEntity()

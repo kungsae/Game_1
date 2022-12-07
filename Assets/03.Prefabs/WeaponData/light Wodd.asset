@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58bbf8547e2367a4c850949b4d807741, type: 3}
-  m_Name: Small Stone
+  m_Name: light Wodd
   m_EditorClassIdentifier: 
-  attackP: 8
+  attackP: 10
   knockbackP: 7
-  coolDown: 0.5
+  coolDown: 0.8
   craftItems: []

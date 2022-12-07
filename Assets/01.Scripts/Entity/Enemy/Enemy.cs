@@ -8,8 +8,8 @@ public class Enemy : Entity
 {
     public Entity target;
     [SerializeField] private EnemySkillData skillData;
+    private List<Entity> attackedEntitys = new List<Entity>();
 
-    protected bool onDamage = false;
     protected bool canStateChange = true;
 
     public State state = State.Idle;
@@ -18,12 +18,20 @@ public class Enemy : Entity
         base.Update();
         DoState();
     }
+    public override void Init()
+    {
+        base.Init();
+        target = null;
+        state = State.Idle;
+    }
     public void DoState()
     {
         if (isDie||onDamage) return;
         switch (state)
         {
             case State.Idle:
+                animator.Play("Idle");
+                rigid.velocity = Vector2.zero;
                 if (target != null)
                 {
                     StartCoroutine(ChangeStateTime(0.5f, State.Trace));
@@ -62,13 +70,24 @@ public class Enemy : Entity
                 break;
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            Entity targetEntity = collision.GetComponent<Entity>();
+            if (!attackedEntitys.Contains(targetEntity))
+            {
+                attackedEntitys.Add(targetEntity);
+                targetEntity.OnDamage(data.damage * skillData.data[0].powerP, transform.position, 15);
+            }
+        }
+    }
     public void ChangeState(State _state)
     {
         Debug.Log(_state + "로 상태 변경");
         switch (_state)
         {
             case State.Idle:
-                animator.Play("Idle");
                 break;
             case State.Trace:
                 break;
@@ -105,14 +124,12 @@ public class Enemy : Entity
     }
     public override void Die()
     {
-        base.Die();
         ChangeState(State.Die);
+        base.Die();
     }
     protected override IEnumerator hitEffectTime()
     {
-        onDamage = true;
         yield return base.hitEffectTime();
-        onDamage = false;
     }
     public override void Attack()
     {
@@ -121,18 +138,26 @@ public class Enemy : Entity
     }
     public IEnumerator AttackProcess()
     {
-        Debug.Log("A");
         while (true)
         {
+            if (isDie || onDamage)
+            {
+                defaultAttackCol.enabled = false;
+                attackedEntitys.Clear();
+                yield break;
+            } 
             yield return null;
             AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
             if (info.normalizedTime > 1f)
             {
+                defaultAttackCol.enabled = false;
+                attackedEntitys.Clear();
                 rigid.velocity = Vector2.zero;
                 yield break;
             }
             else if (info.normalizedTime > 0.3f)
             {
+                defaultAttackCol.enabled = true;
                 rigid.velocity = dir * data.speed * 3f;
             }
 
