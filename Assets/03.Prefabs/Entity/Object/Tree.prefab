@@ -103,17 +103,13 @@ MonoBehaviour:
   hand: {fileID: 0}
   items:
   - item: {fileID: 4272297406207753150, guid: f950c74761525aa439c10bad4d786954, type: 3}
+    dropProbability: 100
+    dropMin: 1
+    dropMax: 4
+  - item: {fileID: 4272297406207753150, guid: 29b8351ddbb61dd4c8bc944e7f38637e, type: 3}
     dropProbability: 30
     dropMin: 1
-    dropMax: 1
-  - item: {fileID: 7418951757289738143, guid: b212ba20acbe4ce4182583ac55754e71, type: 3}
-    dropProbability: 1
-    dropMin: 1
-    dropMax: 1
-  - item: {fileID: 4272297406207753150, guid: 29b8351ddbb61dd4c8bc944e7f38637e, type: 3}
-    dropProbability: 10
-    dropMin: 1
-    dropMax: 1
+    dropMax: 4
 --- !u!61 &1029030533081866450
 BoxCollider2D:
   m_ObjectHideFlags: 0

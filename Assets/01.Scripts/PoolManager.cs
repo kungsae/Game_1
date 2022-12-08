@@ -30,7 +30,6 @@ public class PoolManager<T> where T : Component
         {
             pools.Add(obj.gameObject.name, new Queue<T>());
         }
-        Debug.Log(obj.gameObject.name + pools[obj.gameObject.name].Count);
         if (pools[obj.gameObject.name].Count == 0)
         {
             GameObject newObj = Instance.spawner.Instantiation(obj, parent);

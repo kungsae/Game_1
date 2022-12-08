@@ -10,16 +10,16 @@ public abstract class Entity : MonoBehaviour
     public Action dieEvent;
     public GameObject hitParticle;
     public GameObject hand;
+    public bool isDie { get; protected set; }
     protected float hp;
-    protected Animator animator;
     protected SpriteRenderer spriteRender;
     protected Rigidbody2D rigid;
     protected Vector2 dir;
-    protected bool isDie = false;
     protected Material origineMat;
     protected Collider2D[] cols;
     protected Collider2D defaultAttackCol;
     protected bool onDamage = false;
+    protected Animator animator;
     [SerializeField] protected dropItems[] items;
 
 
@@ -52,7 +52,6 @@ public abstract class Entity : MonoBehaviour
                 defaultAttackCol = item;
             }
         }
-        Debug.Log(defaultAttackCol);
         Init();
     }
     protected virtual void OnEnable()

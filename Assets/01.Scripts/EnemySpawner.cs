@@ -70,14 +70,9 @@ public class EnemySpawner : MonoBehaviour
     float timeTest = 0;
     private void Update()
     {
-        if (timeTest > 0.1f)
+        if (Input.GetKeyDown(KeyCode.Y))
         {
-            timeTest = 0;
             Spawn();
-        }
-        else
-        {
-            timeTest += Time.deltaTime;
         }
     }
 }

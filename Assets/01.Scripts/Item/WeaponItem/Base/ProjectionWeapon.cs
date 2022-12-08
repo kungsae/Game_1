@@ -24,13 +24,13 @@ public class ProjectionWeapon : ItemBase
     {
         base.Awake();
     }
-    public override void Attack()
+    public override void Use()
     {
         if (canAttack)
         {
             Fire();
         }
-        base.Attack();
+        base.Use();
     }
     protected virtual void Fire()
     {

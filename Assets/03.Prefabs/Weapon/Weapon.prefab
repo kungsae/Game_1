@@ -145,3 +145,4 @@ MonoBehaviour:
   animator: {fileID: 0}
   player: {fileID: 0}
   data: {fileID: 11400000, guid: 8c3126a3cd0596b4ab695f1df3ccd72d, type: 2}
+  spriteRender: {fileID: 6874935495683686269}

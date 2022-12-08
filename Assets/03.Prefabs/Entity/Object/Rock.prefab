@@ -107,13 +107,9 @@ MonoBehaviour:
     dropMin: 1
     dropMax: 1
   - item: {fileID: 4272297406207753150, guid: cca8e698a64cc9541ab6f6537a635536, type: 3}
-    dropProbability: 50
-    dropMin: 0
-    dropMax: 2
-  - item: {fileID: 4272297406207753150, guid: 35c95e5462f474b4f986f25d8536bda1, type: 3}
-    dropProbability: 1
+    dropProbability: 100
     dropMin: 1
-    dropMax: 1
+    dropMax: 4
 --- !u!61 &4843846605138402721
 BoxCollider2D:
   m_ObjectHideFlags: 0

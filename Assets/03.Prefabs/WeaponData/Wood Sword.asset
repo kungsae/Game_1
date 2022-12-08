@@ -15,6 +15,8 @@ MonoBehaviour:
   attackP: 100
   knockbackP: 12
   coolDown: 0.8
+  icon: {fileID: -4689988903102377207, guid: 426ffb679d952b044b7c5e4f83552ea1, type: 3}
+  type: 0
   craftItems:
   - needItem: {fileID: 11400000, guid: 1c7fac1a750069b4a82a83ca26ba9b59, type: 2}
     needCount: 2

@@ -10,6 +10,7 @@ public class ItemBase : MonoBehaviour
     [HideInInspector] public Animator animator;
     [HideInInspector] public Entity player;
     public WeaponData data;
+    public SpriteRenderer spriteRender;
     protected WaitForSeconds coolDown;
     protected bool canAttack = true;
     protected Collider2D col;
@@ -17,10 +18,11 @@ public class ItemBase : MonoBehaviour
     protected virtual void Awake()
     {
         coolDown = new WaitForSeconds(data.coolDown);
+        spriteRender = GetComponent<SpriteRenderer>();
         col = gameObject.GetComponent<Collider2D>();
         animator = GetComponent<Animator>();
     }
-    public virtual void Attack()
+    public virtual void Use()
     {
         if (!canAttack) return;
             animator.Play("Attack");
@@ -58,12 +60,12 @@ public class ItemBase : MonoBehaviour
         transform.position = createPos;
         float valY = UnityEngine.Random.Range(-1.8f,-0.8f);
         float valX = UnityEngine.Random.Range(-1.3f,0.8f);
-        transform.DOLocalMoveY(transform.position.y + 2, 0.5f).SetEase(Ease.OutQuad).OnComplete(()=> 
+        transform.DOLocalMoveY(transform.position.y + 2, 0.4f).SetEase(Ease.OutQuad).OnComplete(()=> 
         {
-            transform.DOLocalMoveY(transform.position.y + valY, 0.5f).SetEase(Ease.InQuad);
+            transform.DOLocalMoveY(transform.position.y + valY, 0.4f).SetEase(Ease.InQuad);
         });
-        transform.DOLocalMoveX(transform.position.x + valX, 1f);
-        transform.DOLocalRotate(new Vector3(0, 0,3600), 1f,RotateMode.FastBeyond360);
+        transform.DOLocalMoveX(transform.position.x + valX, 0.8f);
+        transform.DOLocalRotate(new Vector3(0, 0,3600), 0.8f,RotateMode.FastBeyond360);
     }
     protected virtual IEnumerator CoolDown()
     {

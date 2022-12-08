@@ -49,7 +49,6 @@ public class Inventory : MonoBehaviour
                 {
                     PoolManager<ItemBase>.instance.SetPool(item);
                     inventorySlots[i].AddItem(item);
-                    Debug.Log(inventorySlots[i].item.data.Count);
                     break;
                 }
             }
@@ -57,10 +56,46 @@ public class Inventory : MonoBehaviour
         //inventory.Add(item);
         //inventorySlots[inventory.Count - 1].sprite = item.GetComponent<SpriteRenderer>().sprite;
     }
+    public int GetItemCount(WeaponData item)
+    {
+        for (int i = 0; i < inventorySlots.Count; i++)
+        {
+            if (inventorySlots[i].item != null && inventorySlots[i].item.data[0].data == item)
+            {
+                return inventorySlots[i].item.data.Count;
+            }
+        }
+        return 0;
+    }
+    public void DeleteItem(WeaponData item,int count)
+    {
+        for (int i = 0; i < inventorySlots.Count; i++)
+        {
+            if (inventorySlots[i].item !=null&& inventorySlots[i].item.data[0].data.name == item.name)
+            {
+                ItemBase outItem;
+                outItem = inventorySlots[i].item.data.Last();
+                inventorySlots[i].item.data.RemoveRange(inventorySlots[i].item.data.Count - count, count);
+                inventorySlots[i].CountSet();
+                if (inventorySlots[i].item.data.Count < 1)
+                {
+                    itemCount--;
+                    PoolManager<InvenItem>.instance.SetPool(inventorySlots[i].item);
+                    if (outItem.data.name == GameManager.instance.player.weapon.data.name)
+                    {
+                        GameManager.instance.player.weapon.ChangeWeapon(false);
+                        PoolManager<ItemBase>.instance.SetPool(GameManager.instance.player.weapon);
+                        GameManager.instance.player.weapon = null;
+                    }
+                    inventorySlots[i].item = null;
+                }
+                break;
+            }
+        }
+        
+    }
     public void OutItem(InvenSlot item)
     {
-        itemCount--;
-
         for (int i = 0; i < inventorySlots.Count; i++)
         {
             if (inventorySlots[i] == item)
@@ -68,6 +103,7 @@ public class Inventory : MonoBehaviour
                 ItemBase outItem;
                 if (inventorySlots[i].item.data.Count <= 1)
                 {
+                    itemCount--;
                     PoolManager<InvenItem>.instance.SetPool(inventorySlots[i].item);
                     outItem = inventorySlots[i].item.data.Last();
                     inventorySlots[i].item.data.RemoveAt(inventorySlots[i].item.data.Count - 1);

@@ -9,7 +9,6 @@ public class Enemy : Entity
     public Entity target;
     [SerializeField] private EnemySkillData skillData;
     private List<Entity> attackedEntitys = new List<Entity>();
-
     protected bool canStateChange = true;
 
     public State state = State.Idle;
@@ -27,6 +26,13 @@ public class Enemy : Entity
     public void DoState()
     {
         if (isDie||onDamage) return;
+        if (target != null && target.isDie)
+        {
+            target = null;
+            rigid.velocity = Vector2.zero;
+            state = State.Idle;
+        }
+
         switch (state)
         {
             case State.Idle:
@@ -46,6 +52,7 @@ public class Enemy : Entity
                 }
                 break;
             case State.Trace:
+                if (target == null) return;
                 dir = (target.transform.position - transform.position).normalized;
                 if (Vector2.Distance(target.transform.position, transform.position) <= skillData.data[0].distance)
                 {
@@ -84,7 +91,7 @@ public class Enemy : Entity
     }
     public void ChangeState(State _state)
     {
-        Debug.Log(_state + "로 상태 변경");
+        //Debug.Log(_state + "로 상태 변경");
         switch (_state)
         {
             case State.Idle:

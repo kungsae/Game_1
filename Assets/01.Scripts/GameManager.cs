@@ -13,4 +13,8 @@ public class GameManager : MonoBehaviour
         instance = this;
         inventory = GetComponent<Inventory>();
     }
+    public void ShakeCam()
+    {
+        
+    }
 }

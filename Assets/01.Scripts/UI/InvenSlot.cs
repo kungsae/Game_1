@@ -36,11 +36,15 @@ public class InvenSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDra
         item.data.Add(_data);
         item.Init();
         countText.gameObject.SetActive(true);
-        countText.text = item.data.Count.ToString();
+        CountSet();
     }
     public void AddItem(ItemBase _data)
     {
         item.data.Add(_data);
+        CountSet();
+    }
+    public void CountSet()
+    {
         countText.text = item.data.Count.ToString();
     }
     public void EquipItem()
@@ -109,7 +113,7 @@ public class InvenSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDra
                 GameManager.instance.inventory.OutItem(this);
                 if (item != null)
                 {
-                    countText.text = item.data.Count.ToString();
+                    CountSet();
                 }
             }
         }

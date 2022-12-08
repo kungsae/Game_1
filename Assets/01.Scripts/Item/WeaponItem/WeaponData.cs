@@ -6,8 +6,11 @@ using UnityEngine;
 public class WeaponData : ScriptableObject
 {
     public float attackP;
+    [Range(0,100)]
     public float knockbackP;
     public float coolDown;
+    public Sprite icon;
+    public ItemType type;
     public CraftItem[] craftItems;
 }
 [System.Serializable]
@@ -15,4 +18,10 @@ public struct CraftItem
 {
     public WeaponData needItem;
     public int needCount;
+}
+public enum ItemType
+{
+    Weapon,
+    Etc,
+    Material
 }

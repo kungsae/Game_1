@@ -9,9 +9,9 @@ public class ShortWeapon : ItemBase
     {
         base.Awake();
     }
-    public override void Attack()
+    public override void Use()
     {
-        base.Attack();
+        base.Use();
     }
     public override void ChangeWeapon(bool get, Player _player = null)
     {

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 9183512980089094016}
   - component: {fileID: 4272297406207753150}
   m_Layer: 6
-  m_Name: Special_Wood
+  m_Name: Wood Hammer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1661755649832967830, guid: 9f5f1b1fcd2b382429228f3c24925cd9, type: 3}
+  m_Sprite: {fileID: 1601102222595849975, guid: 426ffb679d952b044b7c5e4f83552ea1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -117,18 +117,18 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.019503146, y: 0.05850953}
+  m_Offset: {x: 0.26250005, y: 0.4499998}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    pivot: {x: 0.15, y: 0.2}
+    oldSize: {x: 0.75, y: 1.5}
     newSize: {x: 0.04, y: 0.04}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7659618, y: 0.4149047}
+  m_Size: {x: 0.75, y: 1.5}
   m_EdgeRadius: 0
 --- !u!114 &4272297406207753150
 MonoBehaviour:
@@ -144,4 +144,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   player: {fileID: 0}
-  data: {fileID: 11400000, guid: 2c02831b70697734db9a5092bed70f9c, type: 2}
+  data: {fileID: 11400000, guid: 48cd84d1b36ba7546938d19f450c9c3f, type: 2}
+  spriteRender: {fileID: 6874935495683686269}

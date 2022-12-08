@@ -21,13 +21,17 @@ public class Player : Entity
         Look();
         Move();
         if(!EventSystem.current.IsPointerOverGameObject())
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0)||Input.GetKeyDown(KeyCode.Z))
         {
             Attack();
         }
-        if (Input.GetKey(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             InteractObj();
+        }
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            GetItem();
         }
     }
     public void Look()
@@ -53,7 +57,7 @@ public class Player : Entity
     {
         if (weapon != null)
         {
-            weapon.Attack();
+            weapon.Use();
         }
     }
     public override void Die()
@@ -73,9 +77,23 @@ public class Player : Entity
     }
     public void InteractObj()
     {
+        RaycastHit2D[] hit = Physics2D.CircleCastAll(transform.position, 1, transform.right, 0, LayerMask.GetMask("Interact"));
+        BuildObj item = null;
+        foreach (var idx in hit)
+        {
+            if (idx.collider.GetComponent<BuildObj>() != null)
+            {
+                item = idx.collider.GetComponent<BuildObj>();
+                break;
+            }
+        }
+        if(item!=null)
+        item.Interact();
+    }
+    public void GetItem()
+    {
         RaycastHit2D[] hit = Physics2D.CircleCastAll(transform.position,1,transform.right,0, LayerMask.GetMask("Item"));
         ItemBase item = null;
-        Debug.Log(hit.Length);
         foreach (var idx in hit)
         {
             if (idx.collider.GetComponent<ItemBase>() != null)
@@ -88,11 +106,8 @@ public class Player : Entity
         {
             if (!GameManager.instance.inventory.MaxInventory())
             {
-                Debug.Log("A");
                 GameManager.instance.inventory.PushItem(item);
-                //item.gameObject.SetActive(false);
             }
-            //ChangeWeapon(item);
         }
     }
 

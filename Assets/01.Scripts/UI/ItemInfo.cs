@@ -13,18 +13,17 @@ public class ItemInfo : MonoBehaviour
     public void SetInfo(WeaponData data)
     {
         StringBuilder builder = new StringBuilder();
-        builder.Append("Attack : ");
-        builder.Append(data.attackP);
+        builder.AppendFormat("Attack : {0}", data.attackP);
         builder.AppendLine();
-        builder.Append("Speed : ");
-        builder.Append(data.coolDown);
+        builder.AppendFormat("Speed : {0}", data.coolDown);
         builder.AppendLine();
-        builder.Append("KnockBack : ");
-        builder.Append(data.knockbackP);
+        builder.AppendFormat("KnockBack : {0}", data.knockbackP);
         builder.AppendLine();
-
 
         nameText.text = data.name;
         infoText.text = builder.ToString();
+        builder.Clear();
+        builder.AppendFormat("Type : {0}", data.type);
+        typeText.text = builder.ToString();
     }
 }
