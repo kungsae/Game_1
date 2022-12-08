@@ -11,7 +11,7 @@ public abstract class Entity : MonoBehaviour
     public GameObject hitParticle;
     public GameObject hand;
     public bool isDie { get; protected set; }
-    protected float hp;
+    public float hp { get; protected set; }
     protected SpriteRenderer spriteRender;
     protected Rigidbody2D rigid;
     protected Vector2 dir;
@@ -53,6 +53,10 @@ public abstract class Entity : MonoBehaviour
             }
         }
         Init();
+    }
+    public void HpAdd(float value)
+    {
+        hp = Mathf.Clamp(hp + value, 0, data.maxHp);
     }
     protected virtual void OnEnable()
     {

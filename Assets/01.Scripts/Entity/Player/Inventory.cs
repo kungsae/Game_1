@@ -81,7 +81,7 @@ public class Inventory : MonoBehaviour
                 {
                     itemCount--;
                     PoolManager<InvenItem>.instance.SetPool(inventorySlots[i].item);
-                    if (outItem.data.name == GameManager.instance.player.weapon.data.name)
+                    if (GameManager.instance.player.weapon !=null&& outItem.data.name == GameManager.instance.player.weapon.data.name)
                     {
                         GameManager.instance.player.weapon.ChangeWeapon(false);
                         PoolManager<ItemBase>.instance.SetPool(GameManager.instance.player.weapon);

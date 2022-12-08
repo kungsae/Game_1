@@ -13,6 +13,10 @@ public class Player : Entity
         //inventory.PushItem(weapon);
         //weapon.player = this;
     }
+    private void Start()
+    {
+        UIManager.instance.HpUpdate();
+    }
 
     // Update is called once per frame
     public override void Update()
@@ -74,6 +78,11 @@ public class Player : Entity
         weapon = newWeapon;
         weapon.transform.parent = hand.transform;
         weapon.ChangeWeapon(true, this);
+    }
+    public override void OnDamage(float _damage, Vector2 attackPos, float pushPower = 0)
+    {
+        base.OnDamage(_damage, attackPos, pushPower);
+        UIManager.instance.HpUpdate();
     }
     public void InteractObj()
     {

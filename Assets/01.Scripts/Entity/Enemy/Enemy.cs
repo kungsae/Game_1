@@ -79,7 +79,7 @@ public class Enemy : Entity
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player")||(collision.CompareTag("Entity")&&collision.gameObject.layer == LayerMask.NameToLayer("Interact")))
         {
             Entity targetEntity = collision.GetComponent<Entity>();
             if (!attackedEntitys.Contains(targetEntity))
