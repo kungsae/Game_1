@@ -19,7 +19,7 @@ public class ItemBase : MonoBehaviour
     {
         coolDown = new WaitForSeconds(data.coolDown);
         spriteRender = GetComponent<SpriteRenderer>();
-        col = gameObject.GetComponent<Collider2D>();
+        col = GetComponent<Collider2D>();
         animator = GetComponent<Animator>();
     }
     public virtual void Use()

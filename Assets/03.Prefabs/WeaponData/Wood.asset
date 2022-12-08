@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58bbf8547e2367a4c850949b4d807741, type: 3}
   m_Name: Wood
   m_EditorClassIdentifier: 
-  attackP: 15
+  attackP: 2
   knockbackP: 10
   coolDown: 1
   icon: {fileID: 6351902264584881540, guid: 9f5f1b1fcd2b382429228f3c24925cd9, type: 3}

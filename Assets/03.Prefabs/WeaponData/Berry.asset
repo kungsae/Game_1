@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 58bbf8547e2367a4c850949b4d807741, type: 3}
-  m_Name: light Wodd
+  m_Name: Berry
   m_EditorClassIdentifier: 
-  attackP: 2
-  knockbackP: 7
-  coolDown: 0.8
-  icon: {fileID: -1661755649832967830, guid: 9f5f1b1fcd2b382429228f3c24925cd9, type: 3}
+  attackP: 1
+  knockbackP: 0
+  coolDown: 1
+  icon: {fileID: 8090959002770302809, guid: ba2193349c6adaf4285a5262143ecc4c, type: 3}
   type: 2
   craftItems: []

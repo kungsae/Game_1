@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58bbf8547e2367a4c850949b4d807741, type: 3}
   m_Name: Wood Sword
   m_EditorClassIdentifier: 
-  attackP: 100
+  attackP: 7
   knockbackP: 12
   coolDown: 0.8
   icon: {fileID: -4689988903102377207, guid: 426ffb679d952b044b7c5e4f83552ea1, type: 3}

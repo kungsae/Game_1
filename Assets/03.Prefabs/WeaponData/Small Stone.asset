@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58bbf8547e2367a4c850949b4d807741, type: 3}
   m_Name: Small Stone
   m_EditorClassIdentifier: 
-  attackP: 8
-  knockbackP: 7
+  attackP: 3
+  knockbackP: 0
   coolDown: 0.5
   icon: {fileID: -4394519734936628274, guid: 9f5f1b1fcd2b382429228f3c24925cd9, type: 3}
   type: 2

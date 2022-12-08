@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58bbf8547e2367a4c850949b4d807741, type: 3}
   m_Name: Wood Hammer
   m_EditorClassIdentifier: 
-  attackP: 200
+  attackP: 14
   knockbackP: 20
   coolDown: 1.6
   icon: {fileID: 1601102222595849975, guid: 426ffb679d952b044b7c5e4f83552ea1, type: 3}
