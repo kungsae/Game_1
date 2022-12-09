@@ -66,9 +66,9 @@ public abstract class Entity : MonoBehaviour
     {
         if (isDie) return;
         StartCoroutine(hitEffectTime());
-
         float totalPushP = Mathf.Clamp(pushPower - data.pushResist,0,100);
         hp -= _damage;
+        UIManager.instance.DamageText(_damage, attackPos);
         Debug.Log(gameObject.name + " : " + _damage + "피해 입음");
         animator.Play("Hit");
         rigid.velocity = (-(attackPos - (Vector2)transform.position).normalized* totalPushP);

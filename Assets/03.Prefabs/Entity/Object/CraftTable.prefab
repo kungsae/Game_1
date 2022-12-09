@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 88d5933a06fd32d4db534a6ef7c4d385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  data: {fileID: 11400000, guid: 755e91b4aeecfcb459595c0a250d7309, type: 2}
+  data: {fileID: 11400000, guid: 10090ea1fd57cf240b3ba198bad92c6c, type: 2}
   hitParticle: {fileID: 2581805845457154387, guid: 9625864f20ed19840ae8d2e9d95d9586, type: 3}
   hand: {fileID: 0}
   items:
@@ -62,6 +62,7 @@ MonoBehaviour:
   - {fileID: 4272297406207753150, guid: f950c74761525aa439c10bad4d786954, type: 3}
   - {fileID: 4272297406207753150, guid: d28ec1530153e554a813706021fe36bd, type: 3}
   - {fileID: 6380563974105055447, guid: b574be53afc704947a6fb3a118d0d819, type: 3}
+  - {fileID: 6005787927759577131, guid: 1c877163d73655f42b9b929555180500, type: 3}
 --- !u!212 &6317371392195462355
 SpriteRenderer:
   m_ObjectHideFlags: 0
