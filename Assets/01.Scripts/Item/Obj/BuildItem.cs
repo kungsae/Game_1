@@ -26,7 +26,7 @@ public class BuildItem : ItemBase
         buildMode = true;
         GameObject _ghost = PoolManager<Transform>.instance.GetPool(ghost).gameObject;
         _ghost.SetActive(true);
-        Vector2 colSize = spriteRender.size;
+        Vector2 colSize = _ghost.GetComponent<SpriteRenderer>().size;
         SpriteRenderer render = _ghost.GetComponent<SpriteRenderer>();
         Vector3 mouse;
         while (buildMode)

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 211f769a061282647a4a2385de018c7f, type: 3}
   m_Name: CraftTable
   m_EditorClassIdentifier: 
-  maxHp: 10
+  maxHp: 20
   damage: 1
   speed: 5
-  pushResist: 0
+  pushResist: 100
   hitMat: {fileID: 2100000, guid: d5737b711c758eb4390b6f4fd4149f0e, type: 2}

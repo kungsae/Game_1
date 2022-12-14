@@ -19,9 +19,4 @@ public class BuildObj : Entity
         UIManager.instance.craftTable.gameObject.SetActive(true);
         UIManager.instance.craftTable.SetTable(itemData,this);
     }
-    public override IEnumerator DisableEntity()
-    {
-        yield return base.DisableEntity();
-        PoolManager<BuildObj>.instance.SetPool(this);
-    }
 }

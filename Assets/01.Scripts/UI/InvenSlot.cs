@@ -89,12 +89,16 @@ public class InvenSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDra
     public void OnBeginDrag(PointerEventData eventData)
     {
         if (item != null)
+        {
             item.transform.parent = handler.transform;
+            GameManager.instance.dragable = true;
+        }
     }
     public void OnEndDrag(PointerEventData eventData)
     {
         if (item != null)
         {
+            GameManager.instance.dragable = false;
             if (eventData.pointerCurrentRaycast.gameObject != null)
             {
                 InvenSlot slot = eventData.pointerCurrentRaycast.gameObject.GetComponent<InvenSlot>();

@@ -108,6 +108,7 @@ public abstract class Entity : MonoBehaviour
     public virtual IEnumerator DisableEntity()
     {
         yield return new WaitForSeconds(1f);
+        PoolManager<Entity>.instance.SetPool(this);
     }
     protected virtual void DropItem()
     {
@@ -133,13 +134,29 @@ public abstract class Entity : MonoBehaviour
     public virtual void Die()
     {
         dieEvent?.Invoke();
+        spriteRender.material = origineMat;
         StartCoroutine(DisableEntity());
         foreach (var item in cols)
         {
             item.enabled = false;
         }
         DropItem();
+        if (!AnimationCheck("Die"))
+        {
+            PoolManager<Entity>.instance.SetPool(this);
+        }
         animator.Play("Die");
+    }
+    private bool AnimationCheck(string animName)
+    {
+        foreach (AnimationClip item in animator.runtimeAnimatorController.animationClips)
+        {
+            if (item.name.Equals(animName))
+            {
+                return true;
+            }
+        }
+        return false;
     }
 
 }

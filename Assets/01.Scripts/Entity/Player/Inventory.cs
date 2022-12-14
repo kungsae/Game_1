@@ -16,9 +16,6 @@ public class Inventory : MonoBehaviour
         inventorySlots = slot.GetComponentsInChildren<InvenSlot>().ToList();
         //inventorySlots = slot.GetComponentsInChildren<Image>();
     }
-    private void Start()
-    {
-    }
     public bool MaxInventory()
     {
         return itemCount >= 10;

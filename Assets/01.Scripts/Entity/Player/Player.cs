@@ -25,7 +25,7 @@ public class Player : Entity
         Look();
         Move();
         if(!EventSystem.current.IsPointerOverGameObject())
-        if (Input.GetMouseButton(0)||Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetMouseButton(0)&&!GameManager.instance.dragable)
         {
             Attack();
         }

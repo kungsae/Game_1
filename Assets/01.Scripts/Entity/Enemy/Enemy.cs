@@ -120,11 +120,6 @@ public class Enemy : Entity
         }
 
     }
-    public override IEnumerator DisableEntity()
-    {
-        yield return base.DisableEntity();
-        PoolManager<Enemy>.instance.SetPool(this);
-    }
     public override void OnDamage(float _damage, Vector2 attackPos, float pushPower = 0)
     {
         base.OnDamage(_damage, attackPos, pushPower);

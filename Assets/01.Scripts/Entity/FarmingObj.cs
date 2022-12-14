@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class FarmingObj : Entity
 {
-    public override void Awake()
+    public RecoverObj obj;
+
+    public void RecoverObjSet(RecoverObj _obj)
     {
-        base.Awake();
+        obj = _obj;
     }
     public override void Attack()
     {
@@ -15,27 +17,10 @@ public class FarmingObj : Entity
     {
         base.Init();
     }
-    public override void OnDamage(float _damage, Vector2 attackPos, float pushPower = 0)
-    {
-        base.OnDamage(_damage, attackPos, pushPower);
-        //DropItem();
-    }
+
     public override void Die()
     {
         base.Die();
-        StartCoroutine(DisableEntity());
-    }
-    public override IEnumerator DisableEntity()
-    {
-        yield return base.DisableEntity();
-        PoolManager<FarmingObj>.instance.SetPool(this);
-    }
-    protected override void DropItem()
-    {
-        base.DropItem();
-    }
-    protected override IEnumerator hitEffectTime()
-    {
-        yield return base.hitEffectTime();
+        obj.Recover();
     }
 }

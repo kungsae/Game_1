@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attackP: 0
   knockbackP: 0
-  coolDown: 1
+  coolDown: 0.1
   icon: {fileID: -8410467989972974681, guid: daf8c33dea5125a459e070875bf7ffb8, type: 3}
   type: 1
   craftItems: []
