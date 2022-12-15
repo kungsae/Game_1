@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     public Tilemap seaCol;
     public Tilemap groundCol;
     public Tilemap goundSprite;
-    public TileBase colBase;
+    public TileBase goundTileBase;
     int[] dir = { 1, -1 };
     private void Awake()
     {
@@ -25,29 +25,48 @@ public class GameManager : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Vector3Int mousePos = Vector3Int.FloorToInt(Camera.main.ScreenToWorldPoint(Input.mousePosition));
-            mousePos.z = 0;
-            if (groundCol.GetTile(mousePos) == null)
+            
+        }
+    }
+    public void BuildMode()
+    {
+        
+    }
+    IEnumerator BuildProccess()
+    {
+        while (true)
+        {
+            if (Input.GetMouseButtonUp(1))
             {
-                groundCol.SetTile(mousePos, colBase);
-                groundCol.SetColliderType(mousePos, Tile.ColliderType.Grid);
-                goundSprite.SetTile(mousePos, colBase);
-                seaCol.SetTile(mousePos, null);
-                for (int i = 0; i < 2; i++)
-                {
-                    if (groundCol.GetTile(mousePos + new Vector3Int(dir[i], 0, 0)) == null)
-                    {
-                        seaCol.SetTile(mousePos + new Vector3Int(dir[i], 0, 0), colBase);
-                        seaCol.SetColliderType(mousePos + new Vector3Int(dir[i], 0, 0), Tile.ColliderType.Grid);
-                    }
-                    if (groundCol.GetTile(mousePos + new Vector3Int(0, dir[i], 0)) == null)
-                    {
-                        seaCol.SetTile(mousePos + new Vector3Int(0, dir[i], 0), colBase);
-                        seaCol.SetColliderType(mousePos + new Vector3Int(0, dir[i], 0), Tile.ColliderType.Grid);
-                    }
-                }
-
+                yield break;   
             }
+            yield return null;
+        }
+    }
+    public void SetTile()
+    {
+        Vector3Int mousePos = Vector3Int.FloorToInt(Camera.main.ScreenToWorldPoint(Input.mousePosition));
+        mousePos.z = 0;
+        if (groundCol.GetTile(mousePos) == null)
+        {
+            groundCol.SetTile(mousePos, goundTileBase);
+            groundCol.SetColliderType(mousePos, Tile.ColliderType.Grid);
+            goundSprite.SetTile(mousePos, goundTileBase);
+            seaCol.SetTile(mousePos, null);
+            for (int i = 0; i < 2; i++)
+            {
+                if (groundCol.GetTile(mousePos + new Vector3Int(dir[i], 0, 0)) == null)
+                {
+                    seaCol.SetTile(mousePos + new Vector3Int(dir[i], 0, 0), goundTileBase);
+                    seaCol.SetColliderType(mousePos + new Vector3Int(dir[i], 0, 0), Tile.ColliderType.Grid);
+                }
+                if (groundCol.GetTile(mousePos + new Vector3Int(0, dir[i], 0)) == null)
+                {
+                    seaCol.SetTile(mousePos + new Vector3Int(0, dir[i], 0), goundTileBase);
+                    seaCol.SetColliderType(mousePos + new Vector3Int(0, dir[i], 0), Tile.ColliderType.Grid);
+                }
+            }
+
         }
     }
     public void ShakeCam()
