@@ -1,15 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
-public class BuildItem : ItemBase
+public class BuildTileItem : ItemBase
 {
-    [SerializeField]private GameObject build;
+    [SerializeField] private GameObject build;
     [SerializeField] private GameObject ghost;
+    [SerializeField] private TileBase buildTile;
     private bool buildMode = false;
     public override void Use()
     {
-        if (!canAttack|| buildMode) return;
+        if (!canAttack || buildMode) return;
         base.Use();
         StartCoroutine(BuildMode());
 
@@ -37,34 +39,29 @@ public class BuildItem : ItemBase
                 PoolManager<Transform>.instance.SetPool(_ghost.transform);
                 buildMode = false;
                 yield break;
-            } 
+            }
             if (Input.GetMouseButtonDown(0))
             {
-                if (Physics2D.BoxCast(_ghost.transform.position, colSize, 0, Vector2.right, 0, ~LayerMask.GetMask("Map")).collider == null)
+                if (GameManager.instance.CanSetTile())
                 {
-                    CraftTable obj = PoolManager<CraftTable>.instance.GetPool(build);
-                    obj.transform.position = _ghost.transform.position;
-                    obj.gameObject.SetActive(true);
-                    PoolManager<Transform>.instance.SetPool(_ghost.transform);
+                    GameManager.instance.SetTile(buildTile);
                     buildMode = false;
+                    PoolManager<Transform>.instance.SetPool(_ghost.transform);
                     GameManager.instance.inventory.DeleteItem(data, 1);
                     yield break;
                 }
             }
             mouse = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mouse.z = 0;
-            _ghost.transform.position = mouse;
-            if (Physics2D.BoxCast(_ghost.transform.position, colSize, 0, Vector2.right, 0, ~LayerMask.GetMask("Map")).collider != null)
-            {
-                render.color = Color.red;
-            }
-            else
+            _ghost.transform.position = Vector3Int.FloorToInt(mouse) + new Vector3(0.5f,0.5f);
+            if (GameManager.instance.CanSetTile())
             {
                 render.color = Color.green;
             }
-
-
-
+            else
+            {
+                render.color = Color.red;
+            }
         }
     }
 }

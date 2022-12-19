@@ -7,7 +7,7 @@ public class UIManager : MonoBehaviour
 {
     public static UIManager instance;
     public Canvas canvas;
-    public CraftTable craftTable;
+    public CraftTableUI craftTable;
     public Text hpText;
     public GameObject damageTextPrefab;
     private void Awake()

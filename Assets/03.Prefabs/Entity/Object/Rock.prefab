@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d4e5d8807b9d7740a4a81d4128d8894, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  recoverTime: 300
+  recoverTime: 100
   prefabObj: {fileID: 4843846605138402724, guid: ba2541b8e26064b418be2262de8f323b, type: 3}
 --- !u!61 &5015995932133731291
 BoxCollider2D:

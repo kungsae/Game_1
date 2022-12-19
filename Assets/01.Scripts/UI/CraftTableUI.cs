@@ -4,10 +4,10 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CraftTable : MonoBehaviour
+public class CraftTableUI : MonoBehaviour
 {
     ItemBase craftItem = null;
-    BuildObj table;
+    CraftTable table;
     List<CraftIcon> itemList = new List<CraftIcon>();
 
     [Header("Total")]
@@ -23,7 +23,7 @@ public class CraftTable : MonoBehaviour
     [Header("Itmes")]
     [SerializeField] private GameObject iconParent;
     [SerializeField] private GameObject itemIconPrfab;
-    public void SetTable(ItemBase[] items,BuildObj _table)
+    public void SetTable(ItemBase[] items,CraftTable _table)
     {
         table = _table;
         for (int i = 0; i < items.Length; i++)

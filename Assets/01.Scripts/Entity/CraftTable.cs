@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BuildObj : Entity
+public class CraftTable : Entity
 {
     public ItemBase[] itemData;
 

@@ -33,7 +33,7 @@ public class Player : Entity
         {
             InteractObj();
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
             GetItem();
         }
@@ -87,12 +87,12 @@ public class Player : Entity
     public void InteractObj()
     {
         RaycastHit2D[] hit = Physics2D.CircleCastAll(transform.position, 1, transform.right, 0, LayerMask.GetMask("Interact"));
-        BuildObj item = null;
+        CraftTable item = null;
         foreach (var idx in hit)
         {
-            if (idx.collider.GetComponent<BuildObj>() != null)
+            if (idx.collider.GetComponent<CraftTable>() != null)
             {
-                item = idx.collider.GetComponent<BuildObj>();
+                item = idx.collider.GetComponent<CraftTable>();
                 break;
             }
         }
