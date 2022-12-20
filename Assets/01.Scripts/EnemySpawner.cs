@@ -23,12 +23,20 @@ public class EnemySpawner : MonoBehaviour
     {
         for (int i = 0; i < enemys.Length; i++)
         {
-            for (int j = 0; j < enemys[i].count; j++)
+            int idx = enemys[i].count - enemys[i].liveEnemy;
+            for (int j = 0; j < idx; j++)
             {
                 Entity enemyObj = PoolManager<Entity>.instance.GetPool(enemys[i].enemy.gameObject);
                 Vector3 randPos = transform.position + new Vector3(Random.Range(-radius, radius), Random.Range(-radius, radius));
                 enemyObj.transform.position = randPos;
                 enemyObj.gameObject.SetActive(true);
+                enemys[i].liveEnemy++;
+                int a = i;
+                enemyObj.dieEvent += () => 
+                {
+                    Invoke("Spawn", 60f);
+                    enemys[a].liveEnemy--; 
+                };
             }
         }
     }
@@ -44,6 +52,6 @@ public struct EnemySpawnCount
 {
     public Enemy enemy;
     public int count;
-    [HideInInspector] public List<Enemy> liveEnemy;
+    [HideInInspector] public int liveEnemy;
 
 }

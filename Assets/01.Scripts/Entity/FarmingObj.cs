@@ -13,11 +13,11 @@ public class FarmingObj : Entity
     public override void Attack()
     {
     }
-    public override void Init()
+    public override void OnDamage(float _damage, Vector2 attackPos, float pushPower = 0)
     {
-        base.Init();
+        animator.Play("Hit");
+        base.OnDamage(_damage, attackPos, pushPower);
     }
-
     public override void Die()
     {
         base.Die();

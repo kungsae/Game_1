@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58bbf8547e2367a4c850949b4d807741, type: 3}
   m_Name: light Wodd
   m_EditorClassIdentifier: 
-  attackP: 2
+  attackP: 0.5
   knockbackP: 7
   coolDown: 0.8
   icon: {fileID: -1661755649832967830, guid: 9f5f1b1fcd2b382429228f3c24925cd9, type: 3}
