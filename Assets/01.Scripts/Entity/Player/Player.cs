@@ -105,17 +105,14 @@ public class Player : Entity
         ItemBase item = null;
         foreach (var idx in hit)
         {
-            if (idx.collider.GetComponent<ItemBase>() != null)
+            item = idx.collider.GetComponent<ItemBase>();
+            if (item != null)
             {
-                item = idx.collider.GetComponent<ItemBase>();
+                if (!GameManager.instance.inventory.MaxInventory())
+                {
+                    GameManager.instance.inventory.PushItem(item);
+                }
                 break;
-            }
-        }
-        if (item != null)
-        {
-            if (!GameManager.instance.inventory.MaxInventory())
-            {
-                GameManager.instance.inventory.PushItem(item);
             }
         }
     }

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58bbf8547e2367a4c850949b4d807741, type: 3}
   m_Name: Gun
   m_EditorClassIdentifier: 
-  attackP: 1000
+  attackP: 1
   knockbackP: 0
   coolDown: 0.1
   icon: {fileID: -1705405124355515273, guid: e84430ab0ce8ecc418e5dc7a2ba3f1d2, type: 3}

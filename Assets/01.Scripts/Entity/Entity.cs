@@ -70,8 +70,11 @@ public abstract class Entity : MonoBehaviour
         hp -= _damage;
         UIManager.instance.DamageText(_damage, attackPos);
         Debug.Log(gameObject.name + " : " + _damage + "피해 입음");
-        animator.Play("Hit");
-        rigid.velocity = (-(attackPos - (Vector2)transform.position).normalized* totalPushP);
+        if (totalPushP > 0)
+        {
+            animator.Play("Hit");
+            rigid.velocity = (-(attackPos - (Vector2)transform.position).normalized * totalPushP);
+        }
         ParticleSystem p = PoolManager<ParticleSystem>.instance.GetPool(hitParticle.gameObject);
         p.transform.position = /*attackPos*/transform.position;
         p.gameObject.SetActive(true);

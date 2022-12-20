@@ -17,12 +17,12 @@ public class PoolManager<T> where T : Component
     }
     Dictionary<string, Queue<T>> pools = new Dictionary<string, Queue<T>>();
     GameObject parent;
-    Spawner spawner;
+    GameObjectSpawner spawner;
     public PoolManager()
     {
         parent = new GameObject(typeof(T) + " Pool");
-        parent.AddComponent(typeof(Spawner));
-        spawner = parent.GetComponent<Spawner>();
+        parent.AddComponent(typeof(GameObjectSpawner));
+        spawner = parent.GetComponent<GameObjectSpawner>();
     }
     public T GetPool(GameObject obj)
     {

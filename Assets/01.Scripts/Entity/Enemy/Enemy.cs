@@ -142,14 +142,16 @@ public class Enemy : Entity
     {
         while (true)
         {
-            if (isDie || onDamage)
+            yield return null;
+
+            AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
+
+            if (isDie || info.IsName("Hit"))
             {
                 defaultAttackCol.enabled = false;
                 attackedEntitys.Clear();
                 yield break;
             } 
-            yield return null;
-            AnimatorStateInfo info = animator.GetCurrentAnimatorStateInfo(0);
             if (info.normalizedTime > 1f)
             {
                 defaultAttackCol.enabled = false;
@@ -162,9 +164,9 @@ public class Enemy : Entity
                 defaultAttackCol.enabled = true;
                 rigid.velocity = dir * data.speed * 3f;
             }
-
         }
     }
+
 #if UNITY_EDITOR
     private void OnDrawGizmos()
     {
@@ -173,6 +175,8 @@ public class Enemy : Entity
         Handles.color = Color.red;
         Handles.DrawWireDisc(transform.position, Vector3.back, skillData.data[0].distance);
     }
+
+
 #endif
 }
 public enum State
