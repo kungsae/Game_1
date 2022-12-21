@@ -42,9 +42,9 @@ public abstract class Entity : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rigid = GetComponent<Rigidbody2D>();
-        spriteRender = GetComponent<SpriteRenderer>();
+        spriteRender = GetComponentInChildren<SpriteRenderer>();
         origineMat = spriteRender.material;
-        cols = GetComponents<Collider2D>();
+        cols = GetComponentsInChildren<Collider2D>();
         foreach (var item in cols)
         {
             if (item.isTrigger)

@@ -21,6 +21,7 @@ public class FarmingObj : Entity
     public override void Die()
     {
         base.Die();
+        if(obj!=null)
         obj.Recover();
     }
 }

@@ -10,6 +10,5 @@ public class HpRecoverItem : UseItem
         GameManager.instance.player.HpAdd(data.attackP);
         UIManager.instance.HpUpdate();
         base.Use();
-
     }
 }

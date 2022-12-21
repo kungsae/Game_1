@@ -12,6 +12,12 @@ public class Enemy : Entity
     protected bool canStateChange = true;
 
     public State state = State.Idle;
+
+
+    public override void Awake()
+    {
+        base.Awake();
+    }
     public override void Update()
     {
         base.Update();
@@ -77,18 +83,6 @@ public class Enemy : Entity
                 break;
         }
     }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player")||(collision.CompareTag("Entity")&&collision.gameObject.layer == LayerMask.NameToLayer("Interact")))
-        {
-            Entity targetEntity = collision.GetComponent<Entity>();
-            if (!attackedEntitys.Contains(targetEntity))
-            {
-                attackedEntitys.Add(targetEntity);
-                targetEntity.OnDamage(data.damage * skillData.data[0].powerP, transform.position, 15);
-            }
-        }
-    }
     public void ChangeState(State _state)
     {
         //Debug.Log(_state + "로 상태 변경");
@@ -108,6 +102,18 @@ public class Enemy : Entity
         }
 
         state = _state;
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player") || (collision.CompareTag("Entity") && collision.gameObject.layer == LayerMask.NameToLayer("Interact")))
+        {
+            Entity targetEntity = collision.GetComponent<Entity>();
+            if (!attackedEntitys.Contains(targetEntity))
+            {
+                attackedEntitys.Add(targetEntity);
+                targetEntity.OnDamage(data.damage * skillData.data[0].powerP, transform.position, 15);
+            }
+        }
     }
     IEnumerator ChangeStateTime(float time, State _state)
     {
