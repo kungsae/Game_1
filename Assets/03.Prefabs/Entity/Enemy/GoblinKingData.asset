@@ -10,11 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4405f1a6e9b5704ba48f9e6b952eb02, type: 3}
-  m_Name: GoblinData
+  m_Name: GoblinKingData
   m_EditorClassIdentifier: 
   aggroRange: 5
   aggroOutRange: 8
   data:
   - attackName: Attack
     distance: 1.72
+    powerP: 1
+  - attackName: Test
+    distance: 5
     powerP: 1

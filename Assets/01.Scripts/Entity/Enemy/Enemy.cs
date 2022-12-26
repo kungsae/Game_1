@@ -7,7 +7,8 @@ using UnityEngine;
 public class Enemy : Entity
 {
     public Entity target;
-    [SerializeField] private EnemySkillData skillData;
+    [SerializeField] protected EnemySkillData skillData;
+    private Vector3 SpawnPoint;
     private List<Entity> attackedEntitys = new List<Entity>();
     protected bool canStateChange = true;
 
@@ -26,6 +27,7 @@ public class Enemy : Entity
     public override void Init()
     {
         base.Init();
+        SpawnPoint = transform.position;
         target = null;
         state = State.Idle;
     }
@@ -60,16 +62,32 @@ public class Enemy : Entity
             case State.Trace:
                 if (target == null) return;
                 dir = (target.transform.position - transform.position).normalized;
+                if (Vector2.Distance(SpawnPoint, transform.position)>=skillData.aggroOutRange)
+                {
+                    StartCoroutine(ChangeStateTime(0f, State.OutRange));
+                }
                 if (Vector2.Distance(target.transform.position, transform.position) <= skillData.data[0].distance)
                 {
                     StartCoroutine(ChangeStateTime(0f, State.Attack));
                 }
                 else
                 {
-                    {
-                        animator.Play("Move");
-                        rigid.velocity = dir * data.speed;
-                    }
+                   animator.Play("Move");
+                   rigid.velocity = dir * data.speed;
+                
+                }
+                break;
+            case State.OutRange:
+                dir = (SpawnPoint - transform.position).normalized;
+                if (Vector2.Distance(SpawnPoint, transform.position) <= 0.1f)
+                {
+                    StartCoroutine(ChangeStateTime(0f, State.Idle));
+                }
+                else
+                {
+                    hp = data.maxHp;
+                    animator.Play("Move");
+                    rigid.velocity = dir * data.speed;
                 }
                 break;
             case State.Attack:
@@ -96,6 +114,9 @@ public class Enemy : Entity
                 dir = (target.transform.position - transform.position).normalized;
                 rigid.velocity = Vector2.zero;
                 Attack();
+                break;
+            case State.OutRange:
+                target = null;
                 break;
             case State.Die:
                 break;
@@ -176,10 +197,16 @@ public class Enemy : Entity
 #if UNITY_EDITOR
     private void OnDrawGizmos()
     {
+        if (SpawnPoint == Vector3.zero) SpawnPoint = transform.position;
         Handles.color = Color.green;
         Handles.DrawWireDisc(transform.position, Vector3.back, skillData.aggroRange);
         Handles.color = Color.red;
         Handles.DrawWireDisc(transform.position, Vector3.back, skillData.data[0].distance);
+    }
+    private void OnDrawGizmosSelected()
+    {
+        Handles.color = Color.blue;
+        Handles.DrawWireDisc(SpawnPoint, Vector3.back, skillData.aggroOutRange);
     }
 
 
@@ -190,5 +217,6 @@ public enum State
     Idle,
     Trace,
     Attack,
+    OutRange,
     Die
 }

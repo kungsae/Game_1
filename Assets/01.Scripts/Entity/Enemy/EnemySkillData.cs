@@ -6,6 +6,7 @@ using UnityEngine;
 public class EnemySkillData : ScriptableObject
 {
     public float aggroRange;
+    public float aggroOutRange;
     public Skill[] data;
 }
 [System.Serializable]
